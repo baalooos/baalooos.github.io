@@ -5,7 +5,8 @@ date: 2025-01-11T23:52:11+01:00
 tags: [
     "golang",
     "cli",
-    "cobra"
+    "cobra",
+    "sqlite"
 ]
 categories: "Développement"
 draft: false
@@ -31,13 +32,17 @@ Mon application, disponible [ici](https://github.com/baalooos/go-todo-app) se pr
 - Lister les tâches
 - Une fonction démo, permettant de créer de fausse tâches rapidement pour faire des tests
 
-La première étape consiste donc à choisir comment stocker les données.
+Nous allons maintenant voir comment le repo va être organisé.
 
 ### Organisation du repository
 
-// TODO à finir
-Dossier cmd
-Dossier pkg
+Le repo se décompose en 3 grandes parties.
+
+- A la racine, on retrouve les fichiers liés à Go et le README du projet.
+- Le dossier cmd qui va contenir les différentes commandes acceptées par l'application. Par exemple, mon application supporte la commande `go-todo-app list`, on retrouve donc un fichier _list.go_ dans le dossier cmd.
+- Le dossier pkg, qui va contenir des fonctions qui pourront être réutilisé dans plusieurs commandes. On y trouve par exemple la fonciton DbConnect que nous détaillerons dans la partie dédiée à SQLite.
+
+Ce découpage du repository est plutôt standard pour une application en ligne de commande, ce qui fait qu'il est très simple, même pour une personne ne connaissant pas encore le projet, de s'y retrouver et de pouvoir faire des modifications sur l'application.
 
 ## Le stockage des données
 
@@ -77,4 +82,6 @@ Pour le path, comme SQLite utilise un fichier, on lui passe le path vers le fich
 
 ### Conclusion
 
-Voila pour cette première partie.
+Dans cette première partie nous avons vu ensemble en quoi le Go est toujours un langage intéressant à étudier, quel était le cahier des charges que je m'étais fixé, l'organisation du repository et comment se connecter à une base de données SQLite en go.
+
+A bientôt pour, dans une seconde partie, voir comment Cobra va énormément nous simplifier la vie en automatisant une grosse partie de la gestion de la ligne de commande.
