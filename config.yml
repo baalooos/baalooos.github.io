@@ -1,0 +1,101 @@
+baseURL: 'https://baalooos.me/'
+languageCode: 'fr-fr'
+title: 'Le blog de Baalooos'
+theme: [PaperMod]
+
+# pagination:
+#   pagerSize: 5
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+#mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Le blog de Baalooos
+  description: "Le blog de Baalooos"
+  author: Baalooos
+
+  defaultTheme: auto
+
+  ShowShareButtons: true
+  ShowReadingTime: true
+
+  keywords: [Blog, Portfolio, PaperMod]
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+
+  profileMode:
+    enabled: false
+
+  homeInfoParams:
+    Title: "Bienvenue sur mon blog! 🌟"
+    Content: |
+      Ici, je partage ma passion pour le développement, le cloud computing, et le DevOps, mais aussi mes lectures, mes recettes de cuisine, et même quelques réflexions sur les jeux vidéo. Vous y trouverez des articles sur Kubernetes, Terraform, ainsi que des moments de partage autour de mes autres passions.
+
+      Merci de me rejoindre !
+
+  showSocialIcons: true
+  socialIcons:
+  - name: github
+    title: GitHub
+    url: "https://github.com/baalooos"
+  - name: linkedin
+    title: LinkedIn
+    url: "https://www.linkedin.com/in/charles-edouard-gagnaire-a4bb1642/"
+  - name: X
+    title: X
+    url: "https://x.com/baalooos"
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  assets:
+    disableHLJS: true
+
+menu:
+  main:
+  - identifier: About me
+    name: About me
+    url: /about/
+    weight: 1
+  - identifier: Search
+    name: Search
+    url: /search/
+    weight: 1
+  - identifier: Categories
+    name: Categories
+    url: /categories/
+    weight: 10
+  - identifier: Tags
+    name: Tags
+    url: /tags/
+    weight: 20
+
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true

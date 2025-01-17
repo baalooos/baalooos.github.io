@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cobra on Le blog de Baalooos</title>
+    <link>http://localhost:1313/tags/cobra/</link>
+    <description>Recent content in Cobra on Le blog de Baalooos</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 11 Jan 2025 23:52:11 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/cobra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go todo App - Partie 1</title>
+      <link>http://localhost:1313/posts/go-todo-app-1/</link>
+      <pubDate>Sat, 11 Jan 2025 23:52:11 +0100</pubDate>
+      <guid>http://localhost:1313/posts/go-todo-app-1/</guid>
+      <description>&lt;p&gt;Comme j&amp;rsquo;ai un peu de temps libre en ce début d&amp;rsquo;année 2025, j&amp;rsquo;ai décidé d&amp;rsquo;approfondir mes compétences avec quelques projets en Go. Pour commencer, voici quelques réfléxions sur mon premier projet, un gestionnaire de tâches en ligne de commande.&lt;/p&gt;
+&lt;h2 id=&#34;pourquoi-go&#34;&gt;Pourquoi Go?&lt;/h2&gt;
+&lt;p&gt;Aujourd&amp;rsquo;hui Go est incontournable dans l&amp;rsquo;écosystème cloud-native. Il est au coeur de Kubernetes, Docker ou encore Terraform. C&amp;rsquo;est un langage simple et performant ce qui le rend très accessible, et a permis son adaptotion. Go est aussi très adapté à la création d&amp;rsquo;applications CLI, ce qui est un véritable atout quand on veut développer des outils simples et performants.
+La maîtrise du Go, au même titre que le Bash ou le Python permet donc de se créer un ensemble d&amp;rsquo;outils pour optimiser et automatiser les tâches courantes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

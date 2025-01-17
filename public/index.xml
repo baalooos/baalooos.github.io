@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Le blog de Baalooos</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Le blog de Baalooos</description>
+    <generator>Hugo -- 0.140.2</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Sat, 11 Jan 2025 23:52:11 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go todo App - Partie 1</title>
+      <link>http://localhost:1313/posts/go-todo-app-1/</link>
+      <pubDate>Sat, 11 Jan 2025 23:52:11 +0100</pubDate>
+      <guid>http://localhost:1313/posts/go-todo-app-1/</guid>
+      <description>&lt;p&gt;Comme j&amp;rsquo;ai un peu de temps libre en ce début d&amp;rsquo;année 2025, j&amp;rsquo;ai décidé d&amp;rsquo;approfondir mes compétences avec quelques projets en Go. Pour commencer, voici quelques réfléxions sur mon premier projet, un gestionnaire de tâches en ligne de commande.&lt;/p&gt;
+&lt;h2 id=&#34;pourquoi-go&#34;&gt;Pourquoi Go?&lt;/h2&gt;
+&lt;p&gt;Aujourd&amp;rsquo;hui Go est incontournable dans l&amp;rsquo;écosystème cloud-native. Il est au coeur de Kubernetes, Docker ou encore Terraform. C&amp;rsquo;est un langage simple et performant ce qui le rend très accessible, et a permis son adaptotion. Go est aussi très adapté à la création d&amp;rsquo;applications CLI, ce qui est un véritable atout quand on veut développer des outils simples et performants.
+La maîtrise du Go, au même titre que le Bash ou le Python permet donc de se créer un ensemble d&amp;rsquo;outils pour optimiser et automatiser les tâches courantes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Hard Switch</title>
+      <link>http://localhost:1313/posts/the-hard-switch/</link>
+      <pubDate>Sat, 30 Dec 2023 21:36:33 +0100</pubDate>
+      <guid>http://localhost:1313/posts/the-hard-switch/</guid>
+      <description>&lt;p&gt;Découvert par hasard sur Twitter, The Hard Switch de Owen D. Pomery est assurément l&amp;rsquo;un de mes coups de coeur de l&amp;rsquo;année 2023. Le dessin, à la fois géométrique, sale et bourré de couleur est un support parfait pour cette aventure qui suit la fin de la conquête spatiale, mais est-ce vraiment la fin?&lt;/p&gt;
+&lt;h2 id=&#34;résumé-du-livre&#34;&gt;Résumé du livre&lt;/h2&gt;
+&lt;p&gt;Dans The Hard Switch, on suit l&amp;rsquo;équipage d&amp;rsquo;un vaisseau spatial dans sa dernière mission. En effet, l&amp;rsquo;alcanite, un minerai permettant de voyager entre les sytèmes solaire est presque épuisé. Quand ce sera le cas, l&amp;rsquo;univers tel que nous le connaissons va s&amp;rsquo;écrouler et chaque système deviendra une ile isolée du reste de la galaxie.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nous Sommes Légion (Nous sommes Bob)</title>
+      <link>http://localhost:1313/posts/nous-sommes-legion/</link>
+      <pubDate>Thu, 28 Dec 2023 21:53:20 +0100</pubDate>
+      <guid>http://localhost:1313/posts/nous-sommes-legion/</guid>
+      <description>&lt;p&gt;Des années après tout le monde, je découvre enfin cette pépite de la SF que nous propose Dennis E. Taylor en 2016. Acheté par hasard dans une vente d&amp;rsquo;Ebook de Bragelonne, ce roman traînait dans mon Kindle depuis et sur les conseils d&amp;rsquo;un ami, je me suis enfin lancé dans la lecture. Et ce fût une véritable claque.&lt;/p&gt;
+&lt;h2 id=&#34;résumé-du-livre&#34;&gt;Résumé du livre&lt;/h2&gt;
+&lt;p&gt;Bob Johansonn, développeur ayant réussi à vendre son entreprise d&amp;rsquo;informatique, a maintenant la vie devant lui. Il va enfin pouvoir voyager, et profiter de la vie. Malheureusement, il va se faire écraser par une voiture et c&amp;rsquo;est la fin du rêve.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about-copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about-copy/</guid>
+      <description>&lt;h1 id=&#34;charles-edouard-gagnaire&#34;&gt;Charles-Edouard Gagnaire&lt;/h1&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Devops Ingenieer, Cloud Architect on AWS and Scaleway
+I love working with Terraform and Kubernetes&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;h3 id=&#34;senior-technical-account-manager-qovery&#34;&gt;Senior Technical Account Manager, Qovery&lt;/h3&gt;
+&lt;h3 id=&#34;professional-services-consultant-scaleway&#34;&gt;Professional Services Consultant, Scaleway&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Création de l&amp;rsquo;offre de Professional Services pour Scaleway
+&lt;ul&gt;
+&lt;li&gt;Définition du scope de l&amp;rsquo;équipe&lt;/li&gt;
+&lt;li&gt;Formation des commerciaux&lt;/li&gt;
+&lt;li&gt;Définition d&amp;rsquo;un catalogue de services&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scaleway.com/fr/professional-services/&#34;&gt;Scaleway Professional Services&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Accompagnement de clients:
+&lt;ul&gt;
+&lt;li&gt;Audit d&amp;rsquo;infrastructure&lt;/li&gt;
+&lt;li&gt;Conseil sur l&amp;rsquo;architecture à utiliser&lt;/li&gt;
+&lt;li&gt;Migration vers Scaleway&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Technologies utilisées: Kubernetes, Terraform, Prometheus, Move to Cloud, Monitoring, GitOps, Gitlab&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;charles-edouard-gagnaire&#34;&gt;Charles-Edouard Gagnaire&lt;/h1&gt;
+&lt;hr&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;DevOps Engineer &amp;amp; Cloud Architect&lt;/strong&gt;
+Passionate about building scalable infrastructures with Kubernetes and Terraform&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-who-am-i&#34;&gt;🚀 Who Am I?&lt;/h2&gt;
+&lt;p&gt;Hi, I’m Charles-Edouard—a seasoned DevOps professional with over a decade of experience in cloud technologies. I specialize in designing and managing robust infrastructures on platforms like AWS and Scaleway. When I’m not automating workflows or containerizing applications, I’m probably climbing a rock wall or playing the trumpet! 🎺&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;my-cv&#34;&gt;My CV&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/cv/&#34;&gt;CV&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description>&lt;h1 id=&#34;charles-edouard-gagnaire&#34;&gt;Charles-Edouard Gagnaire&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Poste actuel :&lt;/strong&gt; Senior Technical Account Manager @&lt;a href=&#34;https://www.qovery.com/&#34;&gt;Qovery&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;LinkedIn :&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/charles-edouard-gagnaire-a4bb1642/&#34;&gt;Charles-Edouard Gagnaire&lt;/a&gt; | &lt;strong&gt;Email :&lt;/strong&gt; &lt;a href=&#34;mailto:cegagnaire@gmail.com&#34;&gt;cegagnaire@gmail.com&lt;/a&gt; &lt;br&gt;
+&lt;strong&gt;Âge :&lt;/strong&gt; 38 ans (né en 1986)&lt;/p&gt;
+&lt;h2 id=&#34;résumé&#34;&gt;Résumé&lt;/h2&gt;
+&lt;p&gt;Ingénieur DevOps et Architecte Cloud expérimenté, spécialisé dans la conception d&amp;rsquo;infrastructures cloud évolutives et robustes. Avec une expertise particulière sur Kubernetes, Terraform et des plateformes cloud telles qu&amp;rsquo;AWS et Scaleway, j&amp;rsquo;excelle dans la résolution de défis complexes et la livraison de solutions innovantes. Passionné par l&amp;rsquo;automatisation et l&amp;rsquo;efficacité, je m&amp;rsquo;épanouis dans des environnements collaboratifs et dynamiques.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/cv_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv_en/</guid>
+      <description>&lt;h1 id=&#34;charles-edouard-gagnaire&#34;&gt;Charles-Edouard Gagnaire&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Current Position:&lt;/strong&gt; Senior Technical Account Manager @&lt;a href=&#34;https://www.qovery.com/&#34;&gt;Qovery&lt;/a&gt;
+&lt;strong&gt;LinkedIn:&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/charles-edouard-gagnaire-a4bb1642/&#34;&gt;Charles-Edouard Gagnaire&lt;/a&gt; | &lt;strong&gt;Email:&lt;/strong&gt; &lt;a href=&#34;mailto:cegagnaire@gmail.com&#34;&gt;cegagnaire@gmail.com&lt;/a&gt;
+&lt;strong&gt;Age:&lt;/strong&gt; 38 (born in 1986)&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Experienced DevOps Engineer and Cloud Architect specializing in designing scalable, robust cloud infrastructures. With a strong focus on Kubernetes, Terraform, and cloud platforms like AWS and Scaleway, I excel at solving complex challenges and delivering innovative solutions. Passionate about automation and efficiency, I thrive in fast-paced, collaborative environments.&lt;/p&gt;
+&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;
+&lt;h3 id=&#34;cloud-platforms&#34;&gt;Cloud Platforms&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AWS, Scaleway, Cloud Architecture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;devops-tools&#34;&gt;DevOps Tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Kubernetes, Terraform, Prometheus, GitOps, GitLab&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;programming--scripting&#34;&gt;Programming &amp;amp; Scripting&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Golang, Python, Bash&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;other-expertise&#34;&gt;Other Expertise&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CI/CD Pipelines, Infrastructure Monitoring, Move to cloud, Migrations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h2&gt;
+&lt;h3 id=&#34;senior-technical-account-manager---qoveryhttpswwwqoverycom&#34;&gt;&lt;strong&gt;Senior Technical Account Manager&lt;/strong&gt; - &lt;strong&gt;&lt;a href=&#34;https://www.qovery.com/&#34;&gt;Qovery&lt;/a&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;July 2024 – Present&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
