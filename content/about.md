@@ -1,5 +1,6 @@
-# Charles-Edouard Gagnaire
-
+---
+title: "Charles-Edouard Gagnaire"
+url: "/about"
 ---
 
 **DevOps Engineer & Cloud Architect** \

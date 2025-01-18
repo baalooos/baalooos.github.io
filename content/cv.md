@@ -1,5 +1,6 @@
 ---
 title: "Charles-Edouard Gagnaire"
+url: "/cv"
 ---
 
 {{< side-by-side src="/images/profile.jpg" alt="Image de profile" >}}

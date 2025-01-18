@@ -12,6 +12,8 @@ categories: "Développement"
 draft: true
 ---
 
+{{< justify >}}
+
 ## La ligne de commande
 
 Pour créer une application en ligne de commande,
@@ -28,3 +30,5 @@ En travaillant sur la CLI d'un de mes anciens employeurs, j'ai eu l'occasion de 
 ## tabwriter
 
 ## Choses à améliorer
+
+{{< /justify >}}
