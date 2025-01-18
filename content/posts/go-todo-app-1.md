@@ -12,6 +12,8 @@ categories: "Développement"
 draft: false
 ---
 
+{{< justify >}}
+
 Comme j'ai un peu de temps libre en ce début d'année 2025, j'ai décidé d'approfondir mes compétences avec quelques projets en Go. Pour commencer, voici quelques réfléxions sur mon premier projet, un gestionnaire de tâches en ligne de commande.
 
 ## Pourquoi Go?
@@ -85,3 +87,5 @@ Pour le path, comme SQLite utilise un fichier, on lui passe le path vers le fich
 Dans cette première partie nous avons vu ensemble en quoi le Go est toujours un langage intéressant à étudier, quel était le cahier des charges que je m'étais fixé, l'organisation du repository et comment se connecter à une base de données SQLite en go.
 
 A bientôt pour, dans une seconde partie, voir comment Cobra va énormément nous simplifier la vie en automatisant une grosse partie de la gestion de la ligne de commande.
+
+{{< /justify >}}

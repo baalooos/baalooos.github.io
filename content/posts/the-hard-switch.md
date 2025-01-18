@@ -11,6 +11,8 @@ categories: "Roman Graphique"
 draft: false
 ---
 
+{{< justify >}}
+
 Découvert par hasard sur Twitter, The Hard Switch de Owen D. Pomery est assurément l'un de mes coups de coeur de l'année 2023. Le dessin, à la fois géométrique, sale et bourré de couleur est un support parfait pour cette aventure qui suit la fin de la conquête spatiale, mais est-ce vraiment la fin?
 
 ## Résumé du livre
@@ -32,3 +34,5 @@ Il se réclame d'Edward Hopper, le peintre Américain à qui l'on doit notamment
 Dans The Hard Switch, l'auteur s'intéresse à la fin des voyages interstellaires et à leur impact sur l'humanité. Quand la civilisation s'effondre, les hommes laissent libre court à leurs pires penchants. Le pillage, l'égoïsme et la vision à court terme deviennent la règle. Le dessin de Owen D. Pomery rend très bien cette situation, des cases très fournies et qui donnent l'impression qu'il y a de la vie. On y trouve des déchets, du désordre le tout dans de belles cases avec une construction géométrique parfaite.
 
 Si vous aimez vous sentir à l'aise dans un environnement cadré mais plein de vie, alors le travail d'Owen D. Pomery est fait pour vous.
+
+{{< /justify >}}

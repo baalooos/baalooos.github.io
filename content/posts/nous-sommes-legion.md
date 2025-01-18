@@ -12,6 +12,8 @@ categories: "Livres"
 draft: false
 ---
 
+{{< justify >}}
+
 Des années après tout le monde, je découvre enfin cette pépite de la SF que nous propose Dennis E. Taylor en 2016. Acheté par hasard dans une vente d'Ebook de Bragelonne, ce roman traînait dans mon Kindle depuis et sur les conseils d'un ami, je me suis enfin lancé dans la lecture. Et ce fût une véritable claque.
 
 ## Résumé du livre
@@ -49,3 +51,5 @@ L'auteur interroge aussi le rapport de ces intelligences avec le reste de l'huma
 ## Conclusion
 
 Premier tome d'une tétralogie, Nous sommes Légions est un condensé de science, de culture Geek et d'humour. j'ai dévoré le premier tome, et j'ai hâte de trouver le temps de lire la suite pour suivre les aventures de Bob et de ces clones.
+
+{{< /justify >}}
