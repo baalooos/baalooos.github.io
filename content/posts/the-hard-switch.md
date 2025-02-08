@@ -17,15 +17,15 @@ Découvert par hasard sur Twitter, The Hard Switch de Owen D. Pomery est assuré
 
 ## Résumé du livre
 
-Dans The Hard Switch, on suit l'équipage d'un vaisseau spatial dans sa dernière mission. En effet, l'alcanite, un minerai permettant de voyager entre les sytèmes solaire est presque épuisé. Quand ce sera le cas, l'univers tel que nous le connaissons va s'écrouler et chaque système deviendra une ile isolée du reste de la galaxie.
+Dans The Hard Switch, on suit l'équipage d'un vaisseau spatial dans sa dernière mission. En effet, l'alcanite, un minerai permettant de voyager entre les systèmes solaires est presque épuisé. Quand ce sera le cas, l'univers tel que nous le connaissons va s'écrouler et chaque système deviendra une ile isolée du reste de la galaxie.
 
-Cet équipage se compose de deux femmes, Ada et Haika et d'un ingénieur pieuvre de l'espace, Mallic. Cet étrange trio survi en pillant les épaves des vaisseaux pour récupérer du carburant. Ce faisant, ils vont découvrir une piste qui pourrait permettre de sauver l'avenir de l'humanité.
+Cet équipage se compose de deux femmes, Ada et Haika et d'un ingénieur pieuvre de l'espace, Mallic. Cet étrange trio survit en pillant les épaves des vaisseaux pour récupérer du carburant. Ce faisant, ils vont découvrir une piste qui pourrait permettre de sauver l'avenir de l'humanité.
 
 ## L'auteur
 
-Owen D. Pomery est anglais, il vit dans le sud de Londres et après avoir travaillé comme architecte, il est diplomé de la Plymouth School of Architecture, il a décidé de devenir illustrateur et auteur de roman graphique.
+Owen D. Pomery est anglais et vit dans le sud de Londres. Après avoir travaillé comme architecte, il est diplômé de la Plymouth School of Architecture, il a décidé de devenir illustrateur et auteur de roman graphique.
 
-Ce changement de carrière lui est venu naturellement, quand il a réalisé que ce qu'il aimait dans l'architecture, c'était dessiné et inventé de nouvelles choses. Profitant de sa formation, il a commencé par se spécialiser dans le dessin architectural, ce qui lui a permit de financer sa transition.
+Ce changement de carrière lui est venu naturellement, quand il a réalisé que ce qu'il aimait dans l'architecture, c'était dessiné et inventé de nouvelles choses. Profitant de sa formation, il a commencé par se spécialiser dans le dessin architectural, ce qui lui a permis de financer sa transition.
 
 Il se réclame d'Edward Hopper, le peintre Américain à qui l'on doit notamment Nighthawks, et prête une attention particulière aux détails et à la narration environnementale. Il essaie de faire passer un maximum d'informations dans son dessin, ce qui lui permet de faire de magnifiques planches avec très peu de texte, même si cela demande un effort d'attention de la part du lecteur.
 

@@ -14,37 +14,38 @@ draft: false
 
 {{< justify >}}
 
-Comme j'ai un peu de temps libre en ce début d'année 2025, j'ai décidé d'approfondir mes compétences avec quelques projets en Go. Pour commencer, voici quelques réfléxions sur mon premier projet, un gestionnaire de tâches en ligne de commande.
+En ce début d'année 2025, disposant de plus de temps libre, j'en profite pour approfondir mes compétences en Go à travers plusieurs projets. Pour commencer, voici quelques réflexions sur mon premier programme, un gestionnaire de tâches en ligne de commande.
 
 ## Pourquoi Go?
 
-Aujourd'hui Go est incontournable dans l'écosystème cloud-native. Il est au coeur de Kubernetes, Docker ou encore Terraform. C'est un langage simple et performant ce qui le rend très accessible, et a permis son adaptotion. Go est aussi très adapté à la création d'applications CLI, ce qui est un véritable atout quand on veut développer des outils simples et performants.
-La maîtrise du Go, au même titre que le Bash ou le Python permet donc de se créer un ensemble d'outils pour optimiser et automatiser les tâches courantes.
+Aujourd'hui Go est un langage incontournable dans l'écosystème cloud-native. Il est au coeur de Kubernetes, Docker ou encore Terraform. Sa simplicité et ses performances en font un langage accessible, facilitant son adoption.
+Go est également très adapté à la création d'applications en ligne de commande (CLI), ce qui est un véritable atout pour développer des outils simples et efficaces.
+La maîtrise du Go, au même titre que Bash ou Python, permet de se créer un ensemble d'outils pour optimiser et automatiser les tâches courantes.
 
 ## Le projet
 
 ### Le cahier des charges
 
-Mon application, disponible [ici](https://github.com/baalooos/go-todo-app) se présente donc sous la forme d'une application en ligne de commande. Je me suis fixé un cahier des charges relativement simples, avec le support des fonctionnalités suivantes:
+Mon application, disponible [ici](https://github.com/baalooos/go-todo-app), se présente sous la forme d'une application en ligne de commande. Je me suis fixé un cahier des charges relativement simple, avec le support des fonctionnalités suivantes:
 
 - Persistance des données sur disque
-- Init de l'application avec la création du stockage des données
+- Initialisation de l'application avec la création du stockage des données
 - Ajout de tâches
 - Suppression de tâches
-- Lister les tâches
-- Une fonction démo, permettant de créer de fausse tâches rapidement pour faire des tests
+- Affichage de la liste les tâches
+- Fonction démo permettant de créer simplement de fausses tâches pour des tests
 
-Nous allons maintenant voir comment le repo va être organisé.
+Nous allons maintenant voir comment le repo Git est organisé.
 
 ### Organisation du repository
 
-Le repo se décompose en 3 grandes parties.
+Le repo est structuré en 3 grandes parties.
 
-- A la racine, on retrouve les fichiers liés à Go et le README du projet.
-- Le dossier cmd qui va contenir les différentes commandes acceptées par l'application. Par exemple, mon application supporte la commande `go-todo-app list`, on retrouve donc un fichier _list.go_ dans le dossier cmd.
-- Le dossier pkg, qui va contenir des fonctions qui pourront être réutilisé dans plusieurs commandes. On y trouve par exemple la fonciton DbConnect que nous détaillerons dans la partie dédiée à SQLite.
+- A la racine, on retrouve les fichiers liés à Go ainsi que le README du projet.
+- Le dossier _cmd_ qui contient les différentes commandes acceptées par l'application. Par exemple, mon application supporte la commande `go-todo-app list`, on retrouve donc un fichier _list.go_ dans le dossier _cmd_.
+- Le dossier _pkg_, qui regroupe des fonctions pouvant être réutilisé dans plusieurs commandes. On y trouve par exemple la fonction _DbConnect_ que nous détaillerons dans la partie dédiée à SQLite.
 
-Ce découpage du repository est plutôt standard pour une application en ligne de commande, ce qui fait qu'il est très simple, même pour une personne ne connaissant pas encore le projet, de s'y retrouver et de pouvoir faire des modifications sur l'application.
+Ce découpage du repository est standard pour une application en ligne de commande. Ce respect des conventions permet, même à une personne ne connaissant pas encore le projet, une prise en main simplifiée du projet. Cela permet également de contribuer à l'application plus simplement.
 
 ## Le stockage des données
 
@@ -52,11 +53,11 @@ La plupart du temps pour ce genre de projet, le stockage des données peut se fa
 
 ### SQLite
 
-De part sa simplicité et sa fiabilité, SQLite est aujourd'hui l'une des bases de données les plus utilisées au monde. Elle présente aussi un autre avantage, celui d'être complètement autonome. Une base de données SQLite ne nécessite aucun serveur, aucun moteur, il s'agit simplement d'un fichier. Pour plus d'information sur SQLite, vous pouvez consulter [la vidéo d'Olivier Poncet sur le sujet](https://www.youtube.com/watch?v=F1QJwihFs08&t=2s).
+Par sa simplicité et sa fiabilité, SQLite est aujourd'hui l'une des bases de données les plus utilisées au monde. Elle présente aussi un autre avantage, celui d'être complètement autonome. Une base de données SQLite ne nécessite aucun serveur, aucun moteur, il s'agit simplement d'un fichier. Pour plus d'information sur SQLite, vous pouvez consulter [la vidéo d'Olivier Poncet sur le sujet](https://www.youtube.com/watch?v=F1QJwihFs08&t=2s).
 
 ### Connexion à la base de données
 
-Go embarque dans la librairie standard ce qu'il faut pour se connecter à une base de données SQL. Pour plus de lisibilité, j'ai créer une fonction dédiée à cette connexion.
+Go embarque dans la librairie standard ce qu'il faut pour se connecter à une base de données SQL. Pour plus de lisibilité, j'ai créé une fonction dédiée à cette connexion.
 
 ```go
 package dbutils
@@ -76,15 +77,15 @@ func DbConnect(driver string, path string) *sql.DB {
 }
 ```
 
-On peut voir ici qu'on importe le package "database/sql", qui fait parti de la librairie standard et qui va nous permettre d'utiliser la méthode Open. Cette méthode nécessite 2 paramètres, un driver et le path vers la base de données.
+On peut voir ici qu'on importe le package "database/sql", qui fait parti de la librairie standard et qui va nous permettre d'utiliser la méthode _sql.Open_. Cette méthode nécessite 2 paramètres, un driver et le path vers la base de données.
 
-En se renseignant un peu sur les drivers sqlite3 disponible pour Go, on trouve de nombreux résultats, c.f. [ce benchmark](https://github.com/cvilsmeier/go-sqlite-bench). Sans connaissance préalable sur le sujet, j'ai choisi [go-sqlite](https://github.com/glebarez/go-sqlite) une implémentation en Go, compatible avec `database/sql`, ayant de bonnes performances et complètement autonome.
+En me renseignant sur les drivers sqlite3 disponible pour Go, j'ai trouvé de nombreux résultats, c.f. [ce benchmark](https://github.com/cvilsmeier/go-sqlite-bench). Sans connaissance préalable sur le sujet, j'ai choisi [go-sqlite](https://github.com/glebarez/go-sqlite) une implémentation en Go, compatible avec `database/sql`, ayant de bonnes performances et complètement autonome.
 
-Pour le path, comme SQLite utilise un fichier, on lui passe le path vers le fichier utilisé par l'applicatif.
+Pour le chemin permettant d'accéder à la base de données, comme SQLite utilise un fichier, on lui passe le path vers le fichier utilisé par l'applicatif.
 
 ### Conclusion
 
-Dans cette première partie nous avons vu ensemble en quoi le Go est toujours un langage intéressant à étudier, quel était le cahier des charges que je m'étais fixé, l'organisation du repository et comment se connecter à une base de données SQLite en go.
+Dans cette première partie nous avons vu ensemble en quoi le Go est toujours un langage intéressant à étudier, quel était le cahier des charges que je m'étais fixé, l'organisation du repository et comment se connecter à une base de données SQLite en Go.
 
 A bientôt pour, dans une seconde partie, voir comment Cobra va énormément nous simplifier la vie en automatisant une grosse partie de la gestion de la ligne de commande.
 
