@@ -2,12 +2,11 @@
 title: 'Nous Sommes Légion (Nous sommes Bob)'
 author: "Baalooos"
 date: 2023-12-28T21:53:20+01:00
-tags: [
-    "livres",
-    "science-fiction",
-    "exploration spatiale",
-    "espace"
-]
+tags:
+    - "livres"
+    - "science-fiction"
+    - "exploration spatiale"
+    - "espace"
 categories: "Livres"
 draft: false
 ---

@@ -17,7 +17,7 @@ Ingénieur DevOps et Architecte Cloud expérimenté, spécialisé dans la concep
 
 ## Compétences
 
-- Plateformes Cloud
+- Compétences Cloud
   - AWS, Scaleway, Architecture Cloud
 - Outils DevOps
   - Kubernetes
@@ -121,14 +121,14 @@ Janvier 2019 – Mai 2019
 
 ## Certifications
 
-- CKA : Administrateur Certifié Kubernetes (Expiré 11/2024)
+- CKA : Administrateur Certifié Kubernetes (Expiration: 11/2024)
 - Professionnel Scaleway
 
 ## Langues
 
 - **Français :** Langue maternelle
 - **Anglais :** Professionnel
-- **Allemand :** Élementaire
+- **Allemand :** Scolaire, non pratiqué depuis
 
 ## Loisirs
 

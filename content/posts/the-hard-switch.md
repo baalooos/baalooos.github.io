@@ -1,12 +1,11 @@
 ---
 title: 'The Hard Switch'
 date: 2023-12-30T21:36:33+01:00
-tags: [
-    "romans graphiques",
-    "science-fiction",
-    "exploitation spatiale",
-    "espace"
-]
+tags:
+    - "romans graphiques"
+    - "science-fiction"
+    - "exploitation spatiale"
+    - "espace"
 categories: "Roman Graphique"
 draft: false
 ---

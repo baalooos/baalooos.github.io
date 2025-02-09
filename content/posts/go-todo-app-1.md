@@ -2,12 +2,11 @@
 title: 'Go todo App - Partie 1'
 author: "Baalooos"
 date: 2025-01-11T23:52:11+01:00
-tags: [
-    "golang",
-    "cli",
-    "cobra",
-    "sqlite"
-]
+tags:
+    - "golang"
+    - "cli"
+    - "cobra"
+    - "sqlite"
 categories: "Développement"
 draft: false
 ---
