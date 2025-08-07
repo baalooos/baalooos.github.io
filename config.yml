@@ -3,9 +3,6 @@ languageCode: 'fr-fr'
 title: 'Le blog de Baalooos'
 theme: [PaperMod]
 
-# pagination:
-#   pagerSize: 5
-
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -13,7 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-#mainsections: ["posts", "papermod"]
+mainsections: ["posts", "papermod"]
 
 minify:
   disableXML: true
@@ -87,6 +84,10 @@ menu:
     name: Tags
     url: /tags/
     weight: 20
+  - identifier: Archives
+    name: Archives
+    url: /archives/
+    weight: 20
 
 outputs:
   home:
@@ -97,5 +98,5 @@ outputs:
 services:
   instagram:
     disableInlineCSS: true
-  twitter:
+  x:
     disableInlineCSS: true
