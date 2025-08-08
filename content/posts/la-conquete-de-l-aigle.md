@@ -10,9 +10,11 @@ categories: "Livres"
 draft: false
 ---
 
-{{< justify >}}
-
+{{< notice info >}}
 Attention cette chronique porte sur le tome 2 des Aigles de l’Empire, “La conquête de l’aigle” et risque donc de contenir des spoilers sur le tome 1. La chronique du tome 1, “L'aigle de la légion”, est disponible sur le [blog de syfantasy.fr](https://syfantasy.fr/critiques/critique-laigle-de-la-legion-simon-scarrow-un-premier-roman-enfin-traduit-en-francais/).
+{{< /notice >}}
+
+{{< justify >}}
 
 ## L’histoire
 

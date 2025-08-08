@@ -100,3 +100,8 @@ services:
     disableInlineCSS: true
   x:
     disableInlineCSS: true
+
+module:
+  imports:
+    - path: github.com/martignoni/hugo-notice
+    - path: PaperMod
