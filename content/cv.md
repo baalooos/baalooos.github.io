@@ -34,9 +34,19 @@ Ingénieur DevOps et Architecte Cloud expérimenté, spécialisé dans la concep
 
 ## Expérience Professionnelle
 
+### **Architecte AWS Senior** - **[Zenika Lyon](https://www.zenika.com/)**
+
+Juin 2025 - Présent
+
+{{< justify >}}
+
+**Technologies clés :** AWS, Terraform, Kubernetes, Terraform, Grafana, Golang
+
+{{< /justify >}}
+
 ### **Senior Technical Account Manager** - **[Qovery](https://www.qovery.com/)**
 
-Juillet 2024 – Présent
+Juillet 2024 – Décembre 2024
 
 {{< justify >}}
 

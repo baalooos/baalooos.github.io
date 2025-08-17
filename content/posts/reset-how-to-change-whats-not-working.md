@@ -7,9 +7,12 @@ tags:
     - "business"
     - "psychologie"
     - "productivité"
+    - "essais"
 categories: "Livres"
 draft: false
 ---
+
+{{< justify >}}
 
 Comment transformer des systèmes complexes alors que la situation semble inextricable? Dans son dernier livre, sorti le 21 janvier 2025, Dan Heath a décidé de s'attaquer au sujet. En un peu moins de 300 pages, l'auteur livre un guide expliquant comment reconnaître, diagnostiquer et faire évoluer des systèmes complexes.
 
@@ -28,7 +31,7 @@ Grâce à 4 leviers, l'auteur nous fait découvrir comment accompagner des organ
 
 - Commencer par de petits changements, il est plus simple de convaincre les gens de changer si on commencer par des choses simples et peu contraignantes
 - Emmener les équipes avec soi, montrer qu'on est à l'écoute.
-- Remettre en question les habitudes. L'auteur présente plusieurs exemples concrets où un regard nouveau va permettre de débloquer la situation.
+- Remettre en question les habitudes. L'auteur présente plusieurs cas concrets où un regard nouveau va permettre de débloquer la situation.
 
 Tout au long du livre, Dan va mettre en avant une approche systémique des problèmes. Cette approche consiste à étudier un problème en considérant l'ensemble de ses éléments et de leurs interactions plutôt que de les étudier séparément. Une citation qu'il reprend plusieurs fois est:
 > Every system is perfectly designed to get the results it gets.
@@ -48,3 +51,5 @@ Enfin je pense qu'un dernier point à retenir est le feedback rapide. L'auteur e
 Sans vouloir révolutionner le domaine, l'approche de l'auteur offre quelque chose de très utile: des exemples concrets et un framework simple, efficace et accessible à tous que chacun peut essayer d'appliquer.
 
 Ce livre, très intéressant me semble être une lecture à conseiller aux acteurs du changement ayant l'impression de se battre contre des moulins, ou simplement à des gens travaillant en entreprise et qui se sentent souvent impuissant face à ces systèmes rigides.
+
+{{< /justify >}}
