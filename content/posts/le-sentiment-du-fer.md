@@ -5,6 +5,8 @@ date: 2022-03-22T21:26:53+02:00
 tags:
     - "livres"
     - "fantasy"
+    - "archives"
+    - "syfantasy.fr"
 categories: "Livres"
 draft: false
 ---
