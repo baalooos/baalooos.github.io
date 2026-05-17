@@ -9,5 +9,17 @@ hugo.exe
 hugo.darwin
 hugo.linux
 
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
 # Temporary lock file while building
 /.hugo_build.lock
+
+# Tooling
+.rtk/
+CLAUDE.md
