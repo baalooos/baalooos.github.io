@@ -1,8 +1,6 @@
 baseURL: 'https://baalooos.me/'
 languageCode: 'fr-fr'
 title: 'Le blog de Baalooos'
-theme: [PaperMod]
-
 enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
@@ -10,7 +8,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -104,4 +102,4 @@ services:
 module:
   imports:
     - path: github.com/martignoni/hugo-notice
-    - path: PaperMod
+    - path: github.com/adityatelange/hugo-PaperMod
