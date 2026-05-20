@@ -31,7 +31,7 @@ Mon application, disponible [ici](https://github.com/baalooos/go-todo-app), se p
 - Initialisation de l'application avec la création du stockage des données
 - Ajout de tâches
 - Suppression de tâches
-- Affichage de la liste les tâches
+- Affichage de la liste des tâches
 - Fonction démo permettant de créer simplement de fausses tâches pour des tests
 
 Nous allons maintenant voir comment le repo Git est organisé.
@@ -40,9 +40,9 @@ Nous allons maintenant voir comment le repo Git est organisé.
 
 Le repo est structuré en 3 grandes parties.
 
-- A la racine, on retrouve les fichiers liés à Go ainsi que le README du projet.
+- À la racine, on retrouve les fichiers liés à Go ainsi que le README du projet.
 - Le dossier _cmd_ qui contient les différentes commandes acceptées par l'application. Par exemple, mon application supporte la commande `go-todo-app list`, on retrouve donc un fichier _list.go_ dans le dossier _cmd_.
-- Le dossier _pkg_, qui regroupe des fonctions pouvant être réutilisé dans plusieurs commandes. On y trouve par exemple la fonction _DbConnect_ que nous détaillerons dans la partie dédiée à SQLite.
+- Le dossier _pkg_, qui regroupe des fonctions pouvant être réutilisées dans plusieurs commandes. On y trouve par exemple la fonction _DbConnect_ que nous détaillerons dans la partie dédiée à SQLite.
 
 Ce découpage du repository est standard pour une application en ligne de commande. Ce respect des conventions permet, même à une personne ne connaissant pas encore le projet, une prise en main simplifiée du projet. Cela permet également de contribuer à l'application plus simplement.
 
@@ -76,9 +76,9 @@ func DbConnect(driver string, path string) *sql.DB {
 }
 ```
 
-On peut voir ici qu'on importe le package "database/sql", qui fait parti de la librairie standard et qui va nous permettre d'utiliser la méthode _sql.Open_. Cette méthode nécessite 2 paramètres, un driver et le path vers la base de données.
+On peut voir ici qu'on importe le package "database/sql", qui fait partie de la librairie standard et qui va nous permettre d'utiliser la méthode _sql.Open_. Cette méthode nécessite 2 paramètres, un driver et le path vers la base de données.
 
-En me renseignant sur les drivers sqlite3 disponible pour Go, j'ai trouvé de nombreux résultats, c.f. [ce benchmark](https://github.com/cvilsmeier/go-sqlite-bench). Sans connaissance préalable sur le sujet, j'ai choisi [go-sqlite](https://github.com/glebarez/go-sqlite) une implémentation en Go, compatible avec `database/sql`, ayant de bonnes performances et complètement autonome.
+En me renseignant sur les drivers sqlite3 disponibles pour Go, j'ai trouvé de nombreux résultats, c.f. [ce benchmark](https://github.com/cvilsmeier/go-sqlite-bench). Sans connaissance préalable sur le sujet, j'ai choisi [go-sqlite](https://github.com/glebarez/go-sqlite) une implémentation en Go, compatible avec `database/sql`, ayant de bonnes performances et complètement autonome.
 
 Pour le chemin permettant d'accéder à la base de données, comme SQLite utilise un fichier, on lui passe le path vers le fichier utilisé par l'applicatif.
 
@@ -86,6 +86,6 @@ Pour le chemin permettant d'accéder à la base de données, comme SQLite utilis
 
 Dans cette première partie nous avons vu ensemble en quoi le Go est toujours un langage intéressant à étudier, quel était le cahier des charges que je m'étais fixé, l'organisation du repository et comment se connecter à une base de données SQLite en Go.
 
-A bientôt pour, dans une seconde partie, voir comment Cobra va énormément nous simplifier la vie en automatisant une grosse partie de la gestion de la ligne de commande.
+À bientôt pour, dans une seconde partie, voir comment Cobra va énormément nous simplifier la vie en automatisant une grosse partie de la gestion de la ligne de commande.
 
 {{< /justify >}}
