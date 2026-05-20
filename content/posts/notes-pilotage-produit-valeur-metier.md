@@ -1,5 +1,5 @@
 ---
-title: 'Notes - Pilotage produit par la valeur Metier'
+title: 'Notes - Pilotage produit par la valeur Métier'
 author: "Baalooos"
 date: 2025-08-07T15:34:17+02:00
 tags: 
@@ -86,7 +86,7 @@ Maintenant que vous savez ce que vous voulez surveiller, et que vous avez mis en
 ### Valider les hypothèses
 Comme on l'a vu dans la première partie, certaines fonctionnalités peuvent sembler essentielles. Pourtant à l'usage il arrive régulièrement qu'on se rende compte que ce n'est pas le cas. 
 
-Afin de ne pas prioriser une fonctionnalité moins importante que prévu (voir même complètement inutilisée), il est nécessaire de mettre en place un suivi régulier des indicateurs liés à la valeur métier. 
+Afin de ne pas prioriser une fonctionnalité moins importante que prévu (voire même complètement inutilisée), il est nécessaire de mettre en place un suivi régulier des indicateurs liés à la valeur métier. 
 
 Ces revues doivent rassembler les différentes parties prenantes et vont vous permettre d'engranger des informations qui seront utiles pour la prochaine phase de priorisation du backlog. 
 
