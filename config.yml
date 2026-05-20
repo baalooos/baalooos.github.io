@@ -1,5 +1,5 @@
 baseURL: 'https://baalooos.me/'
-languageCode: 'fr-fr'
+locale: fr
 title: 'Le blog de Baalooos'
 enableInlineShortcodes: true
 enableRobotsTXT: true
