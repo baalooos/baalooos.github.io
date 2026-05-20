@@ -8,7 +8,7 @@ tags:
     - "psychologie"
     - "productivité"
     - "essais"
-categories: "Livres"
+categories: ["Livres"]
 draft: false
 ---
 

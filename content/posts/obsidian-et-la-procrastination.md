@@ -7,7 +7,7 @@ tags:
     - "obsidian"
     - "psychologie"
     - "productivité"
-categories: "Développement personnel"
+categories: ["Développement personnel"]
 draft: false
 ---
 

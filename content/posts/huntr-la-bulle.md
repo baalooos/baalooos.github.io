@@ -7,7 +7,7 @@ tags:
     - "science-fiction"
     - "exploitation spatiale"
     - "réseaux sociaux"
-categories: "Roman Graphique"
+categories: ["Roman Graphique"]
 draft: false
 ---
 

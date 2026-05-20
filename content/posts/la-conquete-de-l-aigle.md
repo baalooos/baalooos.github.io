@@ -6,7 +6,7 @@ tags:
     - "livres"
     - "rome"
     - "antiquité"
-categories: "Livres"
+categories: ["Livres"]
 draft: false
 ---
 

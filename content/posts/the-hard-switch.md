@@ -6,7 +6,7 @@ tags:
     - "science-fiction"
     - "exploitation spatiale"
     - "espace"
-categories: "Roman Graphique"
+categories: ["Roman Graphique"]
 draft: false
 ---
 

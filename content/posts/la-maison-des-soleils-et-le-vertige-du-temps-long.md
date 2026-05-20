@@ -8,7 +8,7 @@ tags:
     - "exploration spatiale"
     - "espace"
     - "sense of wonder"
-categories: "Livres"
+categories: ["Livres"]
 draft: false
 ---
 

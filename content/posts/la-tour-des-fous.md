@@ -7,7 +7,7 @@ tags:
     - "historique"
     - "archives"
     - "syfantasy.fr"
-categories: "Livres"
+categories: ["Livres"]
 draft: true
 ---
 
