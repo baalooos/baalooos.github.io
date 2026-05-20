@@ -29,7 +29,7 @@ Grâce à 4 leviers, l'auteur nous fait découvrir comment accompagner des organ
 
 À travers de nombreux exemples, ce livre nous accompagne dans la compréhension des différents moyens permettant de faire évoluer un système. Il s'agit notamment de:
 
-- Commencer par de petits changements, il est plus simple de convaincre les gens de changer si on commencer par des choses simples et peu contraignantes
+- Commencer par de petits changements, il est plus simple de convaincre les gens de changer si on commence par des choses simples et peu contraignantes
 - Emmener les équipes avec soi, montrer qu'on est à l'écoute.
 - Remettre en question les habitudes. L'auteur présente plusieurs cas concrets où un regard nouveau va permettre de débloquer la situation.
 
@@ -42,14 +42,14 @@ Cette citation, attribuée à Edwards Deming, explique que si l'on veut changer 
 
 Un premier point à retenir du livre est justement cette approche systémique. La démarche de l'auteur se base sur cette compréhension globale du problème. C'est même le nom d'une des méthodes pour trouver des points de levier: `Map the system`. Je pense que c'est un enseignement que l'on peut tirer de ce livre, si l'on veut changer les choses, il est nécessaire d'avoir une vue d'ensemble du problème. Il ne faut pas hésiter à aller sur le terrain, à suivre les gens dans leur journée de travail pour bien comprendre quels sont les points de blocage.
 
-Un autre point important qu'aborde l'auteur, c'est de trouver des moyens de changer le système sans dépenser plus. Dans la plupart des organisations, il ne sera pas possible de dépenser sans compter pour repartir de 0. Il est donc crucial d'être capable de proposer des changements réalistes et efficient.
+Un autre point important qu'aborde l'auteur, c'est de trouver des moyens de changer le système sans dépenser plus. Dans la plupart des organisations, il ne sera pas possible de dépenser sans compter pour repartir de 0. Il est donc crucial d'être capable de proposer des changements réalistes et efficients.
 
-Enfin je pense qu'un dernier point à retenir est le feedback rapide. L'auteur explique qu'il est important, lorsqu'on essaie de changer les choses, de créer des boucles de feedback très courtes afin de voir en temps réel ce qu'apporte nos modifications.
+Enfin je pense qu'un dernier point à retenir est le feedback rapide. L'auteur explique qu'il est important, lorsqu'on essaie de changer les choses, de créer des boucles de feedback très courtes afin de voir en temps réel ce qu'apportent nos modifications.
 
 ## Conclusion
 
 Sans vouloir révolutionner le domaine, l'approche de l'auteur offre quelque chose de très utile: des exemples concrets et un framework simple, efficace et accessible à tous que chacun peut essayer d'appliquer.
 
-Ce livre, très intéressant me semble être une lecture à conseiller aux acteurs du changement ayant l'impression de se battre contre des moulins, ou simplement à des gens travaillant en entreprise et qui se sentent souvent impuissant face à ces systèmes rigides.
+Ce livre, très intéressant me semble être une lecture à conseiller aux acteurs du changement ayant l'impression de se battre contre des moulins, ou simplement à des gens travaillant en entreprise et qui se sentent souvent impuissants face à ces systèmes rigides.
 
 {{< /justify >}}
