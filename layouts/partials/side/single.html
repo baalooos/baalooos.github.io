@@ -1,0 +1,12 @@
+{{- if site.Params.rtwt.side.single.showDetails -}}
+  <div class="side-details">
+    <span>{{- .WordCount }} {{ i18n "details_words" -}}</span>
+    <span>{{- div (len .RawContent) 1096 }} - {{ div (len .RawContent) 860 }} {{ i18n "details_read_time" -}}</span>
+  </div>
+{{- end -}}
+
+{{- $hasToc := (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") -}}
+{{- if (and site.Params.rtwt.side.single.showTableOfContents $hasToc) -}}
+  <h3>{{- i18n "side_table_of_contents" -}}</h3>
+  {{- .TableOfContents -}}
+{{- end -}}

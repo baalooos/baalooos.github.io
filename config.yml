@@ -22,16 +22,23 @@ params:
     name: Baalooos
 
   rtwt:
+    searchPath: /search
     sidePane: true
     sidePaneSticky: true
-    showTableOfContents: true
-    showRelated: true
-    showRecent: true
-    countRecent: 5
+    home:
+      showBio: true
+      showAuthorImg: true
+      showRecent: true
+      countRecent: 5
     side:
       home:
-        taxonomies: ["tags", "categories"]
+        taxonomies: ["categories", "tags"]
         countTaxonomy: 10
+      single:
+        showDetails: true
+        showTableOfContents: true
+        showRelated: false
+        showAttachments: false
 
 menu:
   main:
@@ -45,17 +52,29 @@ menu:
     weight: 2
   - identifier: archives
     name: Archives
-    url: /archives/
+    url: /posts/
     weight: 3
   - identifier: search
     name: Search
     url: /search/
     weight: 4
 
+outputFormats:
+  SearchIndex:
+    mediaType: application/json
+    baseName: searchindex
+    isPlainText: true
+    notAlternative: true
+
+mediaTypes:
+  "application/json":
+    suffixes: ["json"]
+
 outputs:
   home:
   - HTML
   - RSS
+  - SearchIndex
 
 module:
   imports:
