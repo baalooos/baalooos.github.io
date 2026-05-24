@@ -1,6 +1,6 @@
 # blog
 
-Blog personnel généré avec [Hugo](https://gohugo.io/) et le thème [PaperMod](https://github.com/adityatelange/hugo-PaperMod), déployé sur GitHub Pages.
+Blog personnel généré avec [Hugo](https://gohugo.io/) et le thème [Rusty Typewriter](https://github.com/math-queiroz/rusty-typewriter), déployé sur GitHub Pages.
 
 ## Prérequis
 
@@ -23,7 +23,7 @@ hugo server -D
 
 ## Thème et modules
 
-Le thème PaperMod et le module [hugo-notice](https://github.com/martignoni/hugo-notice) sont gérés via Hugo Modules (`go.mod`).
+Le thème Rusty Typewriter et le module [hugo-notice](https://github.com/martignoni/hugo-notice) sont gérés via Hugo Modules (`go.mod`).
 
 Pour mettre à jour les modules :
 
@@ -32,9 +32,25 @@ hugo mod get -u
 hugo mod tidy
 ```
 
+## Personnalisation
+
+### Couleur d'accent
+
+Définie dans `assets/css/root.css` via la variable `--primary-color`.
+
+### Page d'accueil
+
+Le texte de biographie et la photo de profil sont configurés dans `data/rtwt/content/home.yaml`.
+
+### Sidebar
+
+Configurée dans `config.yml` sous `params.rtwt.side`.
+
 ## Shortcodes
 
 ### Justifier du texte
+
+> ⚠️ Les headers `##` à l'intérieur de ce shortcode ne sont pas inclus dans la table des matières.
 
 ```markdown
 {{< justify >}}
@@ -53,3 +69,13 @@ Texte affiché à gauche de l'image.
 
 {{< /side-by-side >}}
 ```
+
+### Notice
+
+```markdown
+{{< notice info >}}
+Contenu de la notice.
+{{< /notice >}}
+```
+
+Types disponibles : `info`, `warning`, `tip`, `note`.

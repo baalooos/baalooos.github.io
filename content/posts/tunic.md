@@ -11,7 +11,7 @@ tags:
     - "énigmes"
     - "exploration"
     - "indie"
-categories: "Jeux vidéo"
+categories: ["Jeux vidéo"]
 draft: false
 ---
 

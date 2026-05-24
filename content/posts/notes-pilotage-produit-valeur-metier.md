@@ -6,7 +6,7 @@ tags:
     - "pilotage"
     - "produit"
     - "notes"
-categories: "Produits"
+categories: ["Produits"]
 draft: false
 ---
 

@@ -7,99 +7,76 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-pygmentsUseClasses: true
 mainsections: ["posts"]
 
 minify:
   disableXML: true
 
+taxonomies:
+  tag: tags
+  category: categories
+  series: series
+
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Le blog de Baalooos
-  description: "Le blog de Baalooos"
-  author: Baalooos
+  author:
+    name: Baalooos
 
-  defaultTheme: auto
-
-  ShowShareButtons: true
-  ShowReadingTime: true
-
-  keywords: [Blog, Portfolio, PaperMod]
-  ShowBreadCrumbs: true
-  ShowPostNavLinks: true
-
-  profileMode:
-    enabled: false
-
-  homeInfoParams:
-    Title: "Bienvenue sur mon blog! 🌟"
-    Content: |
-      Ici, je partage ma passion pour le développement, le cloud computing, et le DevOps, mais aussi mes lectures, mes recettes de cuisine, et même quelques réflexions sur les jeux vidéo. Vous y trouverez des articles sur Kubernetes, Terraform, ainsi que des moments de partage autour de mes autres passions.
-
-      Merci de me rejoindre !
-
-  showSocialIcons: true
-  socialIcons:
-  - name: github
-    title: GitHub
-    url: "https://github.com/baalooos"
-  - name: linkedin
-    title: LinkedIn
-    url: "https://www.linkedin.com/in/charles-edouard-gagnaire-a4bb1642/"
-  - name: X
-    title: X
-    url: "https://x.com/baalooos"
-
-  # for search
-  # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
-  assets:
-    disableHLJS: true
+  rtwt:
+    searchPath: /search
+    sidePane: true
+    sidePaneSticky: true
+    home:
+      showBio: true
+      showAuthorImg: true
+      showRecent: true
+      countRecent: 5
+    side:
+      home:
+        taxonomies: ["categories", "tags"]
+        countTaxonomy: 10
+      single:
+        showDetails: true
+        showTableOfContents: true
+        showRelated: false
+        showAttachments: false
 
 menu:
   main:
-  - identifier: About me
+  - identifier: about
     name: About me
     url: /about/
     weight: 1
-  - identifier: Search
+  - identifier: posts
+    name: Posts
+    url: /posts/
+    weight: 2
+  - identifier: archives
+    name: Archives
+    url: /posts/
+    weight: 3
+  - identifier: search
     name: Search
     url: /search/
-    weight: 1
-  - identifier: Categories
-    name: Categories
-    url: /categories/
-    weight: 10
-  - identifier: Tags
-    name: Tags
-    url: /tags/
-    weight: 20
-  - identifier: Archives
-    name: Archives
-    url: /archives/
-    weight: 20
+    weight: 4
+
+outputFormats:
+  SearchIndex:
+    mediaType: application/json
+    baseName: searchindex
+    isPlainText: true
+    notAlternative: true
+
+mediaTypes:
+  "application/json":
+    suffixes: ["json"]
 
 outputs:
   home:
   - HTML
   - RSS
-  - JSON
-
-services:
-  instagram:
-    disableInlineCSS: true
-  x:
-    disableInlineCSS: true
+  - SearchIndex
 
 module:
   imports:
     - path: github.com/martignoni/hugo-notice
-    - path: github.com/adityatelange/hugo-PaperMod
+    - path: github.com/math-queiroz/rusty-typewriter

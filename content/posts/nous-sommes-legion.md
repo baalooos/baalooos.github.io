@@ -7,7 +7,7 @@ tags:
     - "science-fiction"
     - "exploration spatiale"
     - "espace"
-categories: "Livres"
+categories: ["Livres"]
 draft: false
 ---
 

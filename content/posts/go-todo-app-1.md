@@ -7,7 +7,7 @@ tags:
     - "cli"
     - "cobra"
     - "sqlite"
-categories: "Développement"
+categories: ["Développement"]
 draft: false
 ---
 

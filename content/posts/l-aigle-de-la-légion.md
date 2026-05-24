@@ -8,7 +8,7 @@ tags:
     - "antiquité"
     - "archives"
     - "syfantasy.fr"
-categories: "Livres"
+categories: ["Livres"]
 draft: false
 ---
 
