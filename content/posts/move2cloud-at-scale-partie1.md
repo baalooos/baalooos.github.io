@@ -11,6 +11,7 @@ tags:
     - "pilotage"
     - "produit"
     - "zenika"
+    - "finops"
 categories: ["Cloud"]
 draft: false
 ---
@@ -18,6 +19,12 @@ draft: false
 ---
 {{< notice info >}}
 Ce billet est le premier d'une série de 3 articles qui parleront du Move2cloud, de ses défis et de son pilotage.
+Autres articles de la série:
+
+- Partie 1 : Les enablers : Vous êtes ici
+- [Partie 2 : Les pièges]({{< ref "move2cloud-at-scale-partie2.md" >}})
+- Partie 3 : Le pilotage : Article à venir
+
 {{< /notice >}}
 
 {{< justify >}}
