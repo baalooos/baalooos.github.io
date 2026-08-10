@@ -3,7 +3,7 @@ title: 'Huntr - La Bulle 1/2'
 author: "Baalooos"
 date: 2021-10-26T21:27:14+02:00
 tags:
-    - "Livres"
+    - "livres"
     - "science-fiction"
     - "exploitation spatiale"
     - "réseaux sociaux"

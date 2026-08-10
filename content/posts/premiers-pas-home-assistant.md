@@ -12,6 +12,7 @@ tags:
     - "shelly"
     - "sonoff"
     - "thermostats virtuels"
+    - "devops"
 categories: "Domotique"
 draft: false
 ---

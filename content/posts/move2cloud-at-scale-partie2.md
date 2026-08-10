@@ -12,6 +12,7 @@ tags:
     - "produit"
     - "zenika"
     - "finops"
+    - "devops"
 categories: ["Cloud"]
 draft: false
 ---
