@@ -3,27 +3,27 @@ title: "Charles-Edouard Gagnaire"
 url: "/about"
 ---
 
-**DevOps Engineer & Cloud Architect** \
-Passionate about building scalable infrastructures with Kubernetes and Terraform
+**Architecte Cloud & Devops Senior** \
+Passionné par la conception d'infrastructures scalables avec Kubernetes et Terraform
 
 ---
 
-## 🚀 Who Am I?
+## 🚀 Qui suis-je ?
 
 {{< justify >}}
 
-Hi, I’m Charles-Edouard, \
-a seasoned DevOps professional with over a decade of experience in cloud technologies. I specialize in designing and managing robust infrastructures on platforms like AWS and Scaleway. When I’m not automating workflows or containerizing applications, I’m probably climbing a rock wall or playing the trumpet! 🎺
+Bonjour, je suis Charles-Edouard, \
+un DevOps chevronné avec plus de dix ans d'expérience dans le cloud et Kubernetes. Je suis spécialisé dans la conception et la gestion d'infrastructures robustes sur des plateformes comme AWS et Scaleway. Quand je n'automatise pas des workflows ou ne containerise pas d'applications, je suis probablement en train d'escalader ou de jouer de la trompette ! 🎺
 
 {{< /justify >}}
 
 ---
 
-## My CV
+## Mon CV
 
 [CV](/cv/)
 
 ---
 
-**Contact:** [cegagnaire@gmail.com](mailto:cegagnaire@gmail.com) \
-**Location:** Lyon, France
+**Contact :** [charles-edouard@gagnaire.io](mailto:charles-edouard@gagnaire.io) \
+**Localisation :** Lyon, France

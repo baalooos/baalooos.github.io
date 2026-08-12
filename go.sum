@@ -1,4 +1,4 @@
-github.com/martignoni/hugo-notice v0.0.0-20250320135530-d7e24b0222d4 h1:rrCIACq6uJVIVqQNSBNukxW4KbH/Hv9VN3nfLbYwClI=
-github.com/martignoni/hugo-notice v0.0.0-20250320135530-d7e24b0222d4/go.mod h1:MIQPOMgEcbyRC0gNLzQFSgrS+wIy3RuQ/HbaZYtTOKU=
-github.com/math-queiroz/rusty-typewriter v0.0.0-20260520194904-fa5efc592d50 h1:lnR27geILPwSAXQtEyu60QH1CL4LDcOjeK+9AqNek8M=
-github.com/math-queiroz/rusty-typewriter v0.0.0-20260520194904-fa5efc592d50/go.mod h1:eev/9/LfgyaATVBy5e3fvgyVrw2MPFwqvqEE/P8SBSs=
+github.com/martignoni/hugo-notice v0.0.0-20260115210225-7d3115657552 h1:azrQlG6B68MqITA3NNvLs8pjoGtvvl3eK41p8KGAWSM=
+github.com/martignoni/hugo-notice v0.0.0-20260115210225-7d3115657552/go.mod h1:MIQPOMgEcbyRC0gNLzQFSgrS+wIy3RuQ/HbaZYtTOKU=
+github.com/math-queiroz/rusty-typewriter v0.0.0-20260723233002-5a3c01325702 h1:KPlP9Jf/zkMpuxQst/mLkDEPY6heoW3BvDpVuc3NVzw=
+github.com/math-queiroz/rusty-typewriter v0.0.0-20260723233002-5a3c01325702/go.mod h1:eev/9/LfgyaATVBy5e3fvgyVrw2MPFwqvqEE/P8SBSs=

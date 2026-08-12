@@ -4,43 +4,41 @@ url: "/cv"
 ---
 
 {{< side-by-side src="/images/profile.jpg" alt="Image de profile" >}}
-**Poste actuel :** Senior Technical Account Manager **[@Qovery](https://www.qovery.com/)** \
-**LinkedIn :** [Charles-Edouard Gagnaire](https://www.linkedin.com/in/charles-edouard-gagnaire-a4bb1642/) | **Email :** [cegagnaire@gmail.com](mailto:cegagnaire@gmail.com) \
-**Âge :** 38 ans (né en 1986)
+**Poste actuel :** Architecte Senior **[@Zenika](https://www.zenika.com/)** \
+**LinkedIn :** [Charles-Edouard Gagnaire](https://www.linkedin.com/in/charles-edouard-gagnaire-a4bb1642/) | **Email :** [charles-edouard@gagnaire.io](mailto:charles-edouard@gagnaire.io) \
 {{< /side-by-side >}}
 
 ## Résumé
 
 {{< justify >}}
-Ingénieur DevOps et Architecte Cloud expérimenté, spécialisé dans la conception d'infrastructures cloud évolutives et robustes. Avec une expertise particulière sur Kubernetes, Terraform et des plateformes cloud telles qu'AWS et Scaleway, j'excelle dans la résolution de défis complexes et la livraison de solutions innovantes. Passionné par l'automatisation et l'efficacité, je m'épanouis dans des environnements collaboratifs et dynamiques.
+DevOps et Architecte Cloud expérimenté, spécialisé dans la conception d'infrastructures cloud évolutives et robustes. Avec une expertise particulière sur Kubernetes, Terraform et des plateformes cloud telles qu'AWS et Scaleway, j'aime résoudre des défis complexes et livrer des solutions innovantes. Passionné par l'automatisation et l'efficacité, je m'épanouis dans des environnements collaboratifs et dynamiques.
 {{< /justify >}}
 
 ## Compétences
 
-- Compétences Cloud
-  - AWS, Scaleway, Architecture Cloud
-- Outils DevOps
-  - Kubernetes
-  - IaC (Terraform)
-  - Prometheus
-  - GitOps, GitLab
-- Programmation & Scripting
-  - Golang
-  - Python, Bash
-- Autres Expertises
-  - Pipelines CI/CD
-  - Monitoring des Infrastructures
-  - Migration vers le Cloud
+**Cloud & Architecture**
+`AWS` `Scaleway` `Architecture Cloud` `Migration Cloud`
+
+**Outils DevOps**
+`Kubernetes` `Terraform` `Prometheus` `Grafana` `GitOps` `GitLab CI`
+
+**Programmation & Scripting**
+`Golang` `Python` `Bash`
+
+**Autres Expertises**
+`Pipelines CI/CD` `Monitoring` `Audit Infrastructure`
 
 ## Expérience Professionnelle
 
-### **Architecte AWS Senior** - **[Zenika Lyon](https://www.zenika.com/)**
+### **Architecte Senior** - **[Zenika Lyon](https://www.zenika.com/)**
 
 Juin 2025 - Présent
 
 {{< justify >}}
 
-**Technologies clés :** AWS, Terraform, Kubernetes, Terraform, Grafana, Golang
+- Mission chez EDF pour Vision2035
+
+**Technologies clés :** AWS, Terraform, Kubernetes, Grafana, Gitlab-CI
 
 {{< /justify >}}
 
@@ -131,7 +129,7 @@ Janvier 2019 – Mai 2019
 
 ## Certifications
 
-- CKA : Administrateur Certifié Kubernetes (Expiration: 11/2024)
+- CKA : Administrateur Certifié Kubernetes Obtenu en 2022
 - Professionnel Scaleway
 
 ## Langues
