@@ -1,5 +1,5 @@
 ---
-title: 'Move2cloud @Scale Partie 1 - Les enablers'
+title: 'Move2Cloud @Scale Partie 1 - Les enablers'
 author: "Baalooos"
 date: 2026-06-17T22:37:55+02:00
 tags:
@@ -19,12 +19,12 @@ draft: false
 
 ---
 {{< notice info >}}
-Ce billet est le premier d'une série de 3 articles qui parleront du Move2cloud, de ses défis et de son pilotage.
+Ce billet est le premier d'une série de 3 articles qui parlent du Move2Cloud, de ses défis et de son pilotage.
 Autres articles de la série:
 
-- Partie 1 : Les enablers : Vous êtes ici
+- Partie 1 : Les enablers (vous êtes ici)
 - [Partie 2 : Les pièges]({{< ref "move2cloud-at-scale-partie2.md" >}})
-- Partie 3 : Le pilotage : Article à venir
+- [Partie 3 : Le pilotage]({{< ref "move2cloud-at-scale-partie3.md" >}})
 
 {{< /notice >}}
 
@@ -61,20 +61,20 @@ Les Enabling teams sont là pour épauler vos équipes produits, et faire pour e
 * **L'on-boarding de nouveaux collaborateurs**, dans ce cas votre Enabling team va avoir le rôle de coach et va pouvoir faire monter rapidement en compétences les nouveaux arrivants. Elle va aussi aider à démarrer efficacement le projet en aidant à choisir une architecture standard et en expliquant comment le produit va pouvoir en tirer partie.
 * **Aider une équipe dans le rush**, que ce soit avant l'ouverture de l'application ou pour une mise en prod importante. Comme l'architecture sur laquelle se base l'équipe produit est standard, vos Enabling teams peuvent très simplement arriver et comprendre comment aider sans impacter l'équipe produit.
 
-Vous voudrez aussi mettre en place une Platform Team. En prenant en charge les sujets bas niveaux, elle va avoir pour mission de simplifier la vie des équipes produits. Il peut s'agir par exemple du déploiement des couches réseaux de votre Cloud ou de la mise en place de votre Organisation (au sens AWS). 
+Vous voudrez aussi mettre en place une Platform Team. En prenant en charge les sujets bas niveaux, elle va avoir pour mission de simplifier la vie des équipes produits. Il peut s'agir par exemple du déploiement des couches réseaux de votre Cloud ou de la mise en place de votre Organisation (au sens AWS).
 
 ### La mise en place d'un CCOE
 Un bon exemple de Platform team est le CCOE ([Cloud Center of Excellence](https://aws.amazon.com/blogs/enterprise-strategy/designing-a-cloud-center-of-excellence-ccoe/)). Ce concept est apparu autour de 2014/2015 chez AWS, et a ensuite été adopté par les différents acteurs du marché. Malgré cette dizaine d'années d'existence, le CCOE reste un enabler majeur pour tout passage à l'échelle d'une migration vers le cloud. Il s'agit d'un ensemble d'équipes qui vont porter les couches basses de votre Cloud, mais également être garantes de la communication et du respect des bonnes pratiques tout en promouvant l'industrialisation. Ces différentes équipes doivent avoir des responsabilités claires, et on peut les découper par exemple en:
 
 * **Core team**: Responsable de l'orga (au sens AWS) et des briques communes (Direct Connect, TGW...). Cette équipe se compose d'experts du cloud que vous avez choisi et va construire toutes les briques sur lesquelles vont s'appuyer les équipes produits.
-* **Cyber Team**: Garante du respect de la PSSI, accompagne les produits, fait de la veille... Le cloud présente de nouveau enjeux de sécurité, et c'est cette équipe qui va s'assurer que vos collaborateurs sont bien conscients des problématiques, tout en mettant en place des outils garantissant que le niveau d'exigence attendu est respecté. 
-* **Dev/Ops Advocate Team**: Garante de la transmission et du respect des bonnes pratiques. Cette équipe va devoir convaincre et former vos équipes produit. Elle peut aussi animer des guildes ou des communautés de pratiques au sein de votre organisation. 
-* **Dev Tools Team**: Responsable de l'IDP ([Internal Developer Platform](https://glossary.cncf.io/platform-engineering/)) qui est un enabler important lors du passage à l'échelle, mais aussi de vos Gitlab, Confluence, Wiki, runners, artifactory, ... Cette équipe est là pour répondre aux besoins de vos équipes produit en terme d'outillage, en effet le bon outillage est crucial pour l'industrialisation. 
-* **Finops Team** : Garante à la fois de la transmission de bonnes pratiques [Finops](https://www.finops.org/), mais aussi du bon respect des budgets pour éviter les mauvaises surprises. L'équipe FinOps est là pour vous faire faire des économies intelligemment. 
+* **Cyber Team**: Garante du respect de la PSSI, accompagne les produits, fait de la veille... Le cloud présente de nouveau enjeux de sécurité, et c'est cette équipe qui va s'assurer que vos collaborateurs sont bien conscients des problématiques, tout en mettant en place des outils garantissant que le niveau d'exigence attendu est respecté.
+* **Dev/Ops Advocate Team**: Garante de la transmission et du respect des bonnes pratiques. Cette équipe va devoir convaincre et former vos équipes produit. Elle peut aussi animer des guildes ou des communautés de pratiques au sein de votre organisation.
+* **Dev Tools Team**: Responsable de l'IDP ([Internal Developer Platform](https://glossary.cncf.io/platform-engineering/)) qui est un enabler important lors du passage à l'échelle, mais aussi de vos Gitlab, Confluence, Wiki, runners, artifactory, ... Cette équipe est là pour répondre aux besoins de vos équipes produit en terme d'outillage, en effet le bon outillage est crucial pour l'industrialisation.
+* **FinOps Team** : Garante à la fois de la transmission de bonnes pratiques [FinOps](https://www.finops.org/), mais aussi du bon respect des budgets pour éviter les mauvaises surprises. L'équipe FinOps est là pour vous faire faire des économies intelligemment.
 * ...
 
 ### Appui hiérarchique et conduite du changement
-L'un des critères déterminant la réussite d'un Move2cloud est le sponsoring de la hiérarchie. Ce critère se révèle encore plus important lors du passage à l'échelle. En effet, **si la bascule d'une application est un sprint, migrer l'ensemble du parc d'un gros client est un marathon**. Vous devez donc impliquer le management le plus tôt possible et lui expliquer clairement ce que vous attendez de lui. 
+L'un des critères déterminant la réussite d'un Move2cloud est le sponsoring de la hiérarchie. Ce critère se révèle encore plus important lors du passage à l'échelle. En effet, **si la bascule d'une application est un sprint, migrer l'ensemble du parc d'un gros client est un marathon**. Vous devez donc impliquer le management le plus tôt possible et lui expliquer clairement ce que vous attendez de lui.
 
 En mettant en avant l'importance du Move2Cloud pour votre organisation, vos responsables vont grandement augmenter vos chances de succès. En challengeant le métier, ils vont faire de place pour votre migration dans des roadmaps déjà bien chargées. Le sponsoring du management va aussi vous permettre de convaincre vos équipes techniques de l'importance du projet et du besoin de formation des équipes. Il s'agit par exemple de trouver des budgets de formation, d'être capable de recruter des coachs...
 
