@@ -13,7 +13,7 @@ draft: false
 
 {{< justify >}}
 
-La procrastination est un sujet très intéressant et beaucoup plus complexe qu'on ne le pense au premier abord. En effet, même si parfois on a l'impression de faire quelque chose, ça peut être une simple excuse pour ne pas faire quelque chose de plus important, ou de moins intéressant. 
+La procrastination est un sujet très intéressant et beaucoup plus complexe qu'on ne le pense au premier abord. En effet, même si parfois on a l'impression de faire quelque chose, ça peut être une simple excuse pour ne pas faire quelque chose de plus important, ou de moins intéressant.
 
 ## Procrastiner  sans en avoir l'air
 

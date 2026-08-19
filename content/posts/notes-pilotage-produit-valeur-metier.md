@@ -2,7 +2,7 @@
 title: 'Notes - Pilotage produit par la valeur Métier'
 author: "Baalooos"
 date: 2025-08-07T15:34:17+02:00
-tags: 
+tags:
     - "pilotage"
     - "produit"
     - "notes"
@@ -81,18 +81,18 @@ Il est important de définir ce qu'on veut surveiller pour valider le fonctionne
 Une fois que l'équipe s'est mise d'accord sur la manière de mesurer le succès d'une fonctionnalité, il faut mettre en place les outils nécessaires. Cette étape est purement technique et dépend beaucoup des outils que vous utilisez. Par exemple, des outils comme Google Analytics pour le suivi des métriques, JIRA pour la gestion des tâches, et des questionnaires en ligne pour recueillir les feedbacks utilisateurs peuvent être utilisés.
 
 ## Suivi de l'exploitation
-Maintenant que vous savez ce que vous voulez surveiller, et que vous avez mis en place les outils permettant cette surveillance, il vous reste à exploiter ces données. 
+Maintenant que vous savez ce que vous voulez surveiller, et que vous avez mis en place les outils permettant cette surveillance, il vous reste à exploiter ces données.
 
 ### Valider les hypothèses
-Comme on l'a vu dans la première partie, certaines fonctionnalités peuvent sembler essentielles. Pourtant à l'usage il arrive régulièrement qu'on se rende compte que ce n'est pas le cas. 
+Comme on l'a vu dans la première partie, certaines fonctionnalités peuvent sembler essentielles. Pourtant à l'usage il arrive régulièrement qu'on se rende compte que ce n'est pas le cas.
 
-Afin de ne pas prioriser une fonctionnalité moins importante que prévu (voire même complètement inutilisée), il est nécessaire de mettre en place un suivi régulier des indicateurs liés à la valeur métier. 
+Afin de ne pas prioriser une fonctionnalité moins importante que prévu (voire même complètement inutilisée), il est nécessaire de mettre en place un suivi régulier des indicateurs liés à la valeur métier.
 
-Ces revues doivent rassembler les différentes parties prenantes et vont vous permettre d'engranger des informations qui seront utiles pour la prochaine phase de priorisation du backlog. 
+Ces revues doivent rassembler les différentes parties prenantes et vont vous permettre d'engranger des informations qui seront utiles pour la prochaine phase de priorisation du backlog.
 
 ### Que faire des fonctionnalités n'ayant pas le succès attendu?
-Maintenant que l'on connaît notre application, et que l'on est capable de dire quelles fonctionnalités les utilisateurs privilégient, il reste à répondre à une question importante: 
-- Quid des fonctionnalités qui ne trouvent pas leur public? 
+Maintenant que l'on connaît notre application, et que l'on est capable de dire quelles fonctionnalités les utilisateurs privilégient, il reste à répondre à une question importante:
+- Quid des fonctionnalités qui ne trouvent pas leur public?
 
 #### Garder la fonctionnalité
 Si une fonctionnalité n'est pas très utilisée, mais qu'elle ne coûte pas grand chose à maintenir, la solution la plus simple reste de la conserver sans investir plus de temps dessus.
@@ -100,7 +100,7 @@ Si une fonctionnalité n'est pas très utilisée, mais qu'elle ne coûte pas gra
 Il faut donc flagger cette fonctionnalité pour que tout le monde sache qu'elle est stable, mais qu'à priori elle n'évoluera plus. Et il sera toujours temps plus tard de s'en occuper.
 
 #### Revoir la fonctionnalité
-Si une fonctionnalité vous semble importante, mais qu'elle n'est que peu utilisée, vous avez peut-être un problème dans son fonctionnement. 
+Si une fonctionnalité vous semble importante, mais qu'elle n'est que peu utilisée, vous avez peut-être un problème dans son fonctionnement.
 
 Grâce à des tests auprès d'un panel d'utilisateurs, il est alors nécessaire de revoir en profondeur son fonctionnement. Dans les pistes potentielles vous avez:
 - L'UI/UX de la fonctionnalité, peut-être que la fonctionnalité n'est pas pratique/agréable à utiliser
@@ -111,9 +111,9 @@ Grâce à des tests auprès d'un panel d'utilisateurs, il est alors nécessaire 
 Les utilisateurs ont besoin de savoir que votre fonctionnalité existe. Il peut donc être nécessaire, grâce à une bannière, de la communication sur les réseaux, une campagne de mailing... de mettre en avant cette fonctionnalité.
 
 #### Supprimer la fonctionnalité
-Si malgré tous vos efforts, une fonctionnalité reste sous-exploitée par vos utilisateurs. Alors il est peut-être temps de simplement supprimer cette fonctionnalité. 
+Si malgré tous vos efforts, une fonctionnalité reste sous-exploitée par vos utilisateurs. Alors il est peut-être temps de simplement supprimer cette fonctionnalité.
 
-Pour cela il faudra accompagner les quelques utilisateurs concernés, prévoir un moyen simple de faire autrement, et passer à autre chose. 
+Pour cela il faudra accompagner les quelques utilisateurs concernés, prévoir un moyen simple de faire autrement, et passer à autre chose.
 
 ## Conclusion
 Voilà, j'espère que ces quelques notes pourront vous aider à mieux comprendre et utiliser la valeur métier.

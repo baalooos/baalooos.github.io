@@ -14,7 +14,7 @@ draft: false
 
 {{< justify >}}
 
-Je connaissais assez peu Alastair Reynolds avant de lire le Bifrost 110 qui lui était consacré. On y découvre notamment une nouvelle, Bleu Zyma, inédite en France qui suit un artiste connu à l'échelle de l'univers. Quand j'ai vu qu'un nouveau roman, traduit par Pierre-Paul Durastanti, allait paraître en France, je l'ai naturellement ajouté à ma pile. La Maison des Soleils, publié initialement en 2008, est arrivé chez nous aux éditions Le Bélial le 18 avril 2024. 
+Je connaissais assez peu Alastair Reynolds avant de lire le Bifrost 110 qui lui était consacré. On y découvre notamment une nouvelle, Bleu Zyma, inédite en France qui suit un artiste connu à l'échelle de l'univers. Quand j'ai vu qu'un nouveau roman, traduit par Pierre-Paul Durastanti, allait paraître en France, je l'ai naturellement ajouté à ma pile. La Maison des Soleils, publié initialement en 2008, est arrivé chez nous aux éditions Le Bélial le 18 avril 2024.
 
 ## L'histoire
 
@@ -30,7 +30,7 @@ Contrairement à ce que l'on peut voir dans Star Trek, ils ne s'interdisent pas 
 
 Deux cent mille ans c'est une durée que l'on a du mal à appréhender. Sur Terre, les premières traces de sédentarisation humaine datent d'environ 9000 av JC, soit il y a un peu plus de 11000 ans. Un cycle pour les frags de la maison des fleurs équivaut donc environ à vingt fois cette durée. Ces civilisations ne sont pas éternelles, même si l'on imagine qu'une civilisation galactique, répartie sur de multiples planètes, doit avoir une espérance de vie très importante. C'est par exemple le sujet de Fondation, d'Isaac Asimov, où l'Empire Galactique va s'écrouler alors qu'il domine l'univers. C'est justement l'étendue de ces civilisations, une de leurs principales forces qui est aussi leur principale faiblesse. Quand les choses commencent à dégénérer, les chaînes logistiques s'effondrent et les communications interplanétaires suivent rapidement.
 
-Le recul et le détachement que peut provoquer ce vertige est dur à imaginer. Il faut se mettre à la place d'un frag. Voyageur perpétuel entre les mondes, passant le plus clair de son temps en hibernation à parcourir la galaxie. Rencontrant des civilisations pour la première, et bien souvent pour la dernière fois. On commence à comprendre d'où vient ce détachement. Ce sentiment est encore renforcé par la longueur des circuits. Même si un frag repasse deux fois au même endroit, l'univers a tellement changé qu'il se retrouve en terrain inconnu. 
+Le recul et le détachement que peut provoquer ce vertige est dur à imaginer. Il faut se mettre à la place d'un frag. Voyageur perpétuel entre les mondes, passant le plus clair de son temps en hibernation à parcourir la galaxie. Rencontrant des civilisations pour la première, et bien souvent pour la dernière fois. On commence à comprendre d'où vient ce détachement. Ce sentiment est encore renforcé par la longueur des circuits. Même si un frag repasse deux fois au même endroit, l'univers a tellement changé qu'il se retrouve en terrain inconnu.
 
 ## Le temps long chez d'autres auteurs
 

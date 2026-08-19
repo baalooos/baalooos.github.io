@@ -2,7 +2,7 @@
 title: 'La Tour Des Fous'
 author: "Baalooos"
 date: 2022-02-28T21:15:55+02:00
-tags: 
+tags:
     - "livres"
     - "historique"
     - "archives"
@@ -17,7 +17,7 @@ J'ai retrouvé ce billet dans mes archives, et il a déjà été publié sur [sy
 
 {{< justify >}}
 
-Après l’immense succès de la saga The Witcher grâce, notamment, à l’adaptation en jeux vidéo mais aussi grâce à la série Netflix avec Henry Cavill en Geralt de Riv, Andrzej Sapkowski revient avec une nouvelle trilogie, sise cette fois dans notre monde, pour nous emporter dans une visite de la Bohème du XVème siècle où cohabitent chevalerie, extrémisme religieux et magie ! 
+Après l’immense succès de la saga The Witcher grâce, notamment, à l’adaptation en jeux vidéo mais aussi grâce à la série Netflix avec Henry Cavill en Geralt de Riv, Andrzej Sapkowski revient avec une nouvelle trilogie, sise cette fois dans notre monde, pour nous emporter dans une visite de la Bohème du XVème siècle où cohabitent chevalerie, extrémisme religieux et magie !
 
 Dans ce premier tome, nous suivons les aventures de Reinmar von Bielau qui, après une amourette avec une dame mariée dont il s’est follement épris, se retrouve en cavale à travers la Bohème, région historiquement à cheval sur l’Allemagne et l’actuelle Tchéquie. Toujours guidé par l’amour et poursuivi par les frères du mari trompé, il aura la chance de rencontrer de fidèles compagnons. Ses péripéties lui donneront ainsi l’occasion de se frotter à la Sainte Inquisition et à un groupe de chevaliers aux pouvoirs démoniaques.
 
