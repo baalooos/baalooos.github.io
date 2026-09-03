@@ -7,6 +7,10 @@ layout: section
 # Aliens, IAs et incidents de prod :
 ## la SF comme miroir de nos pratiques tech
 
+<div class="text-sm opacity-50 mt-4">
+Technozaure Lyon 2026
+</div>
+
 ---
 layout: image-right
 image: /images/00-presentation-01.png
@@ -19,12 +23,12 @@ backgroundSize: 40% auto
 # Présentation
 
 - Architecte Cloud AWS
-- DevOps
-- 15+ années d'XP
+- Zenika depuis 1 ans
+- Lecteur depuis 35 ans
+- Mon blog où je post des trucs -->
 
-- Escalade (bloc)
-- Musique
-- Lecture
+Aujourd'hui, je marie mes passions
+
 
 ---
 src: ./pages/00-introduction.md
