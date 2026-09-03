@@ -1,8 +1,139 @@
-/* styles/index.css */
+/* Police SF pour les titres */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* === FOND (slides normales) : nébuleuse + couleur sombre === */
+/* Exclu ici : .slide-context, qui hérite désormais du fond peint par son conteneur parent (voir plus bas) */
+.slidev-layout:not(.slide-context) {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at top right, color-mix(in srgb, var(--slidev-theme-primary) 15%, transparent) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom left, color-mix(in srgb, var(--slidev-theme-primary) 10%, transparent) 0%, transparent 60%);
+  background-color: #141414;
+}
+
+/* === STARFIELD (slides normales) === */
+.slidev-layout:not(.slide-context)::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.6;
+  background-image:
+    radial-gradient(1.5px 1.5px at 8% 15%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(1px 1px at 18% 42%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 27% 8%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 35% 65%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 42% 30%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 51% 78%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 58% 12%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(1px 1px at 64% 55%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 72% 25%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 79% 68%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 86% 18%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 93% 48%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 12% 82%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 24% 92%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(2px 2px at 47% 88%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 68% 90%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1.5px 1.5px at 89% 82%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 5% 55%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(2px 2px at 96% 70%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 39% 5%, rgba(255,255,255,0.6), transparent);
+}
+
+/* === SECTION : centrage + grille en plus de la nébuleuse === */
 .slidev-layout.section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background:
+    radial-gradient(ellipse at top right, color-mix(in srgb, var(--slidev-theme-primary) 15%, transparent) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom left, color-mix(in srgb, var(--slidev-theme-primary) 10%, transparent) 0%, transparent 60%),
+    linear-gradient(color-mix(in srgb, var(--slidev-theme-primary) 8%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--slidev-theme-primary) 8%, transparent) 1px, transparent 1px);
+  background-size: auto, auto, 40px 40px, 40px 40px;
+  background-color: #141414;
+}
+
+/* === COINS DE VISÉE / HUD (sections uniquement) === */
+.slidev-layout.section::after {
+  content: '';
+  position: absolute;
+  inset: 24px;
+  pointer-events: none;
+  color: color-mix(in srgb, var(--slidev-theme-primary) 60%, transparent);
+  background:
+    linear-gradient(currentColor, currentColor) top left / 24px 2px no-repeat,
+    linear-gradient(currentColor, currentColor) top left / 2px 24px no-repeat,
+    linear-gradient(currentColor, currentColor) top right / 24px 2px no-repeat,
+    linear-gradient(currentColor, currentColor) top right / 2px 24px no-repeat,
+    linear-gradient(currentColor, currentColor) bottom left / 24px 2px no-repeat,
+    linear-gradient(currentColor, currentColor) bottom left / 2px 24px no-repeat,
+    linear-gradient(currentColor, currentColor) bottom right / 24px 2px no-repeat,
+    linear-gradient(currentColor, currentColor) bottom right / 2px 24px no-repeat;
+}
+
+/* Layout par défaut : décalage du texte */
+.slidev-layout.default {
+  padding-top: 6rem;
+}
+
+.slidev-layout.default:not(.slide-context) {
+  padding-left: 6rem;
+}
+
+/* === SPLIT LAYOUT (image-right / image-left) : fond unique, continu sur toute la largeur === */
+.grid.grid-cols-2.auto-rows-fr {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse at top right, color-mix(in srgb, var(--slidev-theme-primary) 15%, transparent) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom left, color-mix(in srgb, var(--slidev-theme-primary) 10%, transparent) 0%, transparent 60%);
+  background-color: #141414;
+}
+
+.grid.grid-cols-2.auto-rows-fr::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.6;
+  background-image:
+    radial-gradient(1.5px 1.5px at 8% 15%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(1px 1px at 18% 42%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 27% 8%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 35% 65%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 42% 30%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 51% 78%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 58% 12%, rgba(255,255,255,0.9), transparent),
+    radial-gradient(1px 1px at 64% 55%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 72% 25%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 79% 68%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 86% 18%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 93% 48%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1.5px 1.5px at 12% 82%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 24% 92%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(2px 2px at 47% 88%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 68% 90%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1.5px 1.5px at 89% 82%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 5% 55%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(2px 2px at 96% 70%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(1px 1px at 39% 5%, rgba(255,255,255,0.6), transparent);
+}
+
+.slidev-layout.slide-context {
+  background: transparent;
+}
+
+.slidev-layout.default h1 {
+  margin-bottom: 2rem;
 }

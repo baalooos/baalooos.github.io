@@ -5,7 +5,7 @@ categoryTag: hide
 ---
 
 # Exploser c'est douter
-## Kerbal Space Program
+## Kerbal Space Program (2011)
 
 <div class="text-sm opacity-50 mt-4">
 #LaCultureDuTest
@@ -28,11 +28,30 @@ backgroundSize: contain
 
 # Contexte
 
-Faire décoller une fusée... déjà un bon début
+Donc, maintenant que vous êtes responsable de la fusée, va falloir qu'elle décolle
 
 <v-click>
 
-**Revert to launch** : un bouton retour en arrière, sans coût
+A votre disposition vous allez avoir:
+
+</v-click>
+
+<v-click>
+
+La possibilité de créer le **vaisseau** de vos rêves
+
+</v-click>
+
+
+<v-click>
+
+Un arbre, vous permettant de débloquer de nombreux **composants**
+
+</v-click>
+
+<v-click>
+
+Le **Revert to launch** : un bouton retour en arrière, sans coût
 
 </v-click>
 
@@ -56,10 +75,12 @@ category: La culture du test
 
 - Vous avez besoin d'un env de test à **coût zéro**
 - On retrouve ici l'esprit du **TDD**
+    - Red, Green, Refactor
 
 <!--
 - Le revert to launch permet de tester sans conséquence, à tout moment
 - En extrapolant un peu : on retrouve l'essence du TDD → coder, tester, corriger jusqu'à ce que ça passe
+- Red, Green, refactor: ça plante, on fait passer les tests, on refactor pour que ce soit propre
 - Aparté rapide : la même logique de boucle s'applique quand on pilote un LLM (contexte + critères de test + itération)
 -->
 
@@ -71,11 +92,13 @@ category: La culture du test
 # Pour les DevOps
 
 - Raccourcir la boucle de **feedback**
-- Le **fail fast**, une cible pour votre CI/CD
+- Le **fail fast, Shift Left**, une cible pour votre CI/CD
+- Attention aux outils très lourd (SAST, SCA...)
 - Vos devs vous diront merci
 
 <!--
 - On lance, ça explose, on recommence... si chaque cycle prend des heures, on ne s'en sort pas
-- Fail fast : détecter vite, corriger vite
-- Question à se poser en CI/CD : comment apporter rapidement de la valeur à un développeur qui lance des tests ?
+- Fail fast + Shift Left : détecter et corriger le plus tôt et le plus vite possible
+- Attention : shift left ne veut pas dire empiler des scanners lourds (SAST : analyse statique du code, SCA : analyse des dépendances) à chaque pipeline
+- Un fail fast qui marche bien = moins d'attente pour les devs, une bonne raison pour les DevOps d'y investir du temps
 -->

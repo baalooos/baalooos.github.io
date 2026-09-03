@@ -5,7 +5,7 @@ categoryTag: hide
 ---
 
 # L'importance de la prise en main d'un système
-## Nous sommes Légion, nous sommes Bob
+## Nous sommes Légion, nous sommes Bob (2016)
 
 <div class="text-sm opacity-50 mt-4">
 #LaGestionDesOperations
@@ -29,23 +29,33 @@ backgroundSize: contain
 
 # Contexte
 
-Le centre où Bob est installé est attaqué
-
 <v-click>
 
-Départ précipité de la Terre, à bord de sa sonde
+Bob : un développeur qui meurt dans les années 2010 et est cryogénisé
 
 </v-click>
 
 <v-click>
 
-Bob audite sa sonde... et découvre un **kill switch**
+Se réveille un siècle plus tard, téléchargé dans un ordinateur
 
 </v-click>
 
 <v-click>
 
-Il continuera d'auditer, tout au long de la série
+Doit intégré une sonde auto-réplicatrice pour explorer l'univers
+
+</v-click>
+
+<v-click>
+
+En prenant les commandes de sa sonde, il fait un audit et découvre un kill switch
+
+</v-click>
+
+<v-click>
+
+Il gardera cette habitude de faire des audits tout au long de la série
 
 </v-click>
 
@@ -82,7 +92,6 @@ category: La gestion des opérations
 ---
 
 # ... et des responsabilités associées
-
 
 - Besoins utilisateurs, **SLA**
 - **Historique** des décisions (ADR)

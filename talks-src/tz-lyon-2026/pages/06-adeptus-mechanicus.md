@@ -5,7 +5,7 @@ categoryTag: hide
 ---
 
 # Quand la dette devient une religion
-## Warhammer 40K, l'Adeptus Mechanicus
+## Warhammer 40K (1987), l'Adeptus Mechanicus
 
 <div class="text-sm opacity-50 mt-4">
 #GestionDeLaDette
@@ -30,7 +30,13 @@ backgroundSize: contain
 
 # Contexte
 
+L'IT est devenu, encore plus qu'aujourd'hui, une religion
+
+<v-click>
+
 Des procédures suivies... sans être comprises
+
+</v-click>
 
 <v-click>
 
@@ -57,9 +63,9 @@ category: Gestion de la dette
 
 # Documenter le comment...
 
-- Savoir gérer les Opérations
+- Se contenter de savoir gérer les Opérations
 - Suivre les rites, sans dévier
-- Une équipe d'exploitant
+- Etre une équipe d'exploitant
 
 <!--
 - Le "comment" : la connaissance opérationnelle du quotidien, celle qui permet de faire tourner le système
@@ -75,8 +81,9 @@ category: Gestion de la dette
 # ...Et surtout le pourquoi
 
 - La gestion du quotidien n'est pas suffisante
-- La doc ne doit pas être un livre sacré
-- Une équipe de DevOps
+- La doc n'est pas un livre sacré
+- Comprendre permet de faire vivre le système, de s'adapter, d'évoluer
+- Devenir une équipe de DevOps
 
 
 <!--

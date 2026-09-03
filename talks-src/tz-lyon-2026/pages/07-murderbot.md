@@ -5,7 +5,7 @@ categoryTag: hide
 ---
 
 # D'où viennent les données que vous utilisez ?
-## Murderbot
+## Murderbot (2017)
 
 <div class="text-sm opacity-50 mt-4">
 #Cyber
@@ -31,11 +31,17 @@ backgroundSize: contain
 
 # Contexte
 
-La base est pilotée par **HubSystem**, connecté par satellite
+Une simple mission de protection, sur une planète quelque part dans la galaxie
 
 <v-click>
 
-HubSystem est compromis
+La base est pilotée par **HubSystem**, connecté par satellite
+
+</v-click>
+
+<v-click>
+
+HubSystem est **compromis**
 
 </v-click>
 
@@ -66,7 +72,7 @@ category: Cyber
 # Un besoin d'interconnexion
 
 - Vos SI sont de plus en plus **interfacés** avec d'autres
-- Plus aucun SI n'est une île
+- Très peu de SI continuent à fonctionner en autonomie
 - SSO, vérification d'identité, API tierces : l'interconnexion est partout
 
 <!--
@@ -84,8 +90,8 @@ category: Cyber
 # Mais attention à la qualité des données
 
 - Injecter du faux, ou juste **altérer** une communication : même danger
-- La **règle des deux sources**, empruntée au journalisme
-- Ne jamais décider sur une source **unique**
+- La **règle des deux sources**, une vérification empruntée au journalisme
+- Quand c'est possible, ne jamais se fier à une source **unique**
 
 <!--
 - Injecter de fausses informations ou simplement altérer une communication peut avoir des conséquences néfastes

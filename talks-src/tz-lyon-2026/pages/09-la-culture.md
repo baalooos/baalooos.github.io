@@ -4,8 +4,8 @@ category: Conclusion
 categoryTag: hide
 ---
 
-# La Culture
-## Iain M. Banks
+# Conclusion
+## Le Cycle de la Culture (1987-2012)
 
 <div class="text-sm opacity-50 mt-4">
 #Conclusion
@@ -28,17 +28,23 @@ backgroundSize: contain
 
 # Contexte
 
-Des IA bienveillantes, dévouées au bonheur humain
+Des IA bienveillantes, dévouées au bonheur de l'humanité
 
 <v-click>
 
-Mais pas parfaites : elles complotent entre elles
+Mais pas parfaites : elles complotent entre elles pour s'occuper
 
 </v-click>
 
 <v-click>
 
-Très présent dans **Excession**, le 4ème roman du cycle
+Pendant ce temps, les humains profitent des plaisirs d'une vie longue et paisible
+
+</v-click>
+
+<v-click>
+
+Mais certains finissent par s'ennuyer
 
 </v-click>
 
@@ -53,11 +59,11 @@ layout: default
 category: Conclusion
 ---
 
-# Ce qu'on en retient
+# Les machines, l'avenir de l'humanité ?
 
 - Si les machines gèrent tout, **que reste-t-il à l'humanité** ?
-- Banks : loisirs, fêtes, plaisir
-- Matrix : des humains réduits en **piles électriques**
+- Banks répond loisirs, fêtes, plaisir
+- Matrix imagine un futur avec des humains réduits en **piles électriques**
 
 <!--
 - Question centrale : si les machines sont capables de tout gérer, qu'est-ce qu'il reste à l'humanité ?
@@ -70,11 +76,11 @@ layout: default
 category: Conclusion
 ---
 
-# Ce qu'on en retient
+# Et nous dans tout ça ?
 
-- Nous, quelque part **entre les deux**
-- Fondation nous a montré un **problème hors contexte**
-- Les LLMs : celui de notre décennie ?
+- Aujourd'hui nous sommes quelque part **entre les deux**
+- Nous faisons face à de nombreux bouleversements dans nos métiers
+- Mais nous pouvons encore choisir ce que nous ferons de ces gains de productivité
 
 <!--
 - Nous sommes en train d'essayer de comprendre les bouleversements auxquels nous faisons face
@@ -97,10 +103,3 @@ category: Conclusion
 - Comme on l'a vu tout au long de cette présentation, la réponse n'est pas simplement technique
 - Il s'agit de faire un choix, de décider ce qu'on va pouvoir faire des gains de productivité annoncés
 -->
-
----
-layout: center
-category: Conclusion
----
-
-# Des questions?

@@ -5,7 +5,7 @@ categoryTag: hide
 ---
 
 # L'air Gap
-## Battlestar Galactica
+## Battlestar Galactica (2004)
 
 <div class="text-sm opacity-50 mt-4">
 #Cyber
@@ -30,17 +30,23 @@ backgroundSize: contain
 
 # Contexte
 
-Les Cylons prennent le contrôle de toute la flotte
+Grâce à une cyberattaque sur le réseau militaire, les Cylons prennent le contrôle de la flotte humaine
 
 <v-click>
 
-Via une cyberattaque sur le réseau militaire
+Toute la flotte?
 
 </v-click>
 
 <v-click>
 
-Sauf le Galactica : jamais connecté
+Non, le Galactica résiste encore à l'invasion
+
+</v-click>
+
+<v-click>
+
+Grâce à son commandant, un vétéran ayant refusé la connexion au réseau
 
 </v-click>
 
@@ -57,9 +63,9 @@ category: Cyber
 
 # La segmentation, un dernier rempart
 
-- **Air gap** / segmentation réseau pour le critique
-- Sinon, **défense en profondeur**
-- VPN admin, bastion SSH : contraignant, mais ça évite le pivot
+- L'**Air gap**, une solution pour vos applications critiques
+- Un compromis, la **défense en profondeur**
+- VPN admin, bastion SSH : des outils contraignant qui évite les pivots
 
 <!--
 - Pas un éloge du vieux système "imprenable" — plutôt le principe d'air gap / segmentation réseau

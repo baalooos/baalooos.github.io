@@ -5,7 +5,7 @@ categoryTag: hide
 ---
 
 # Scotty Factor
-## Star Trek III
+## Star Trek 3 : A la recherche de Spock (1984)
 
 <div class="text-sm opacity-50 mt-4">
 #GestionDeProjet
@@ -28,7 +28,7 @@ backgroundSize: contain
 
 # Contexte
 
-Kirk demande un délai de réparation à Scotty
+Suite au combat contre Khan, Kirk demande à Scotty dans combien de temps ils pourront repartir en mission.
 
 <v-click>
 
@@ -63,9 +63,10 @@ category: Gestion de projet
 
 # Le Scotty Factor, Oui...
 
-- **Surestimer** sciemment ses délais
-- Sur de nouveaux projets
-- Dans des **situations difficiles**
+- ça consiste à **surestimer** sciemment ses délais
+- c'est utile dans certains cas :
+  - en arrivant sur de nouveaux projets
+  - quand on est dans des **situations difficiles**
 
 <!--
 - Terme bien connu des amateurs de Star Trek : "Scotty Factor"
@@ -82,8 +83,9 @@ category: Gestion de projet
 
 # ... Mais pas sur le long terme
 
-- Ensuite on revient sur une estimation **transparente**
-- Ou on change de mission
+- ça ne doit pas être une solution durable
+- quand tout va bien, on bascule sur une estimation **transparente**
+- si les choses ne s'améliore pas, il faut penser à changer de mission
 
 <!--
 - Une fois intégré et en maîtrise sur le projet, basculer vers une méthode plus saine

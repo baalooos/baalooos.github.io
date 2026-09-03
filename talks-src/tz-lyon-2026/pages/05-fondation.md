@@ -5,7 +5,7 @@ categoryTag: hide
 ---
 
 # La gestion de l'imprévu à l'échelle galactique
-## Cycle Fondation, Isaac Asimov
+## Cycle Fondation, Isaac Asimov (1951)
 
 <div class="text-sm opacity-50 mt-4">
 #LaGestionDesOperations
@@ -29,7 +29,13 @@ backgroundSize: contain
 
 # Contexte
 
+Hari Seldon, mathématicien, développe la psychohistoire
+
+<v-click>
+
 Un plan béton : capsules, Time Vault, prévu pour tout
+
+</v-click>
 
 <v-click>
 
@@ -106,8 +112,8 @@ category: La gestion des opérations
 # Faire avec, et préparer l'avenir
 
 - Improviser, s'éloigner du plan initial
-- L'important, c'est de **s'en sortir**
-- Et de **documenter**, comme Watney
+- L'important, c'est de **s'en sortir** et de faire le boulot
+- Surtout après, on **documente**, comme Watney
 
 <!--
 - Une improvisation en entraîne une autre, on s'éloigne de plus en plus du plan initial

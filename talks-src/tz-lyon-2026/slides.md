@@ -1,22 +1,34 @@
 ---
 theme: nord
 title: TZ Septembre 2026
-layout: cover
+layout: section
 ---
 
-# TZ Septembre 2026
+# Aliens, IAs et incidents de prod :
+## la SF comme miroir de nos pratiques tech
 
 ---
-layout: default
+layout: image-right
+image: /images/00-presentation-01.png
+category: Gestion de projet
+categoryTag: left
+class: slide-context
+backgroundSize: 40% auto
 ---
 
 # Présentation
 
----
-layout: default
----
+- Architecte Cloud AWS
+- DevOps
+- 15+ années d'XP
 
-# Introduction
+- Escalade (bloc)
+- Musique
+- Lecture
+
+---
+src: ./pages/00-introduction.md
+---
 
 ---
 src: ./pages/01-scotty-factor.md
@@ -57,3 +69,10 @@ src: ./pages/09-la-culture.md
 ---
 src: ./pages/10-addendum.md
 ---
+
+---
+layout: center
+category: Conclusion
+---
+
+# Des questions?

@@ -5,7 +5,7 @@ categoryTag: hide
 ---
 
 # Le DR en mode survie
-## Seul sur Mars
+## Seul sur Mars (2015)
 
 <div class="text-sm opacity-50 mt-4">
 #LaGestionDesOperations
@@ -63,7 +63,7 @@ category: La gestion des opérations
 
 - Ne pas s'écrouler, **continuer à avancer**
 - DataCenter brûlé, pas de DR documenté...
-- ...on relance quand même : vieux serveurs, backups égarés, PoC cloud oublié
+- ...on relance comme on peut : vieux serveurs, backups égarés, PoC cloud oublié
 
 <!--
 - Watney choisit de continuer à travailler plutôt que de se dire que tout est perdu
@@ -80,7 +80,7 @@ category: La gestion des opérations
 
 - Tous les plans ne fonctionnent pas...
 - ...mais il y aura aussi des **coups de génie**
-- En crise, les **silos tombent**
+- En crise, les **silos tombent** et tout le monde travaille ensemble
 
 <!--
 - Comme le champ de patates qui explose : certains plans échouent
@@ -96,7 +96,8 @@ category: La gestion des opérations
 # Faire le bilan
 
 - Documenter, comme les **video logs** de Watney
-- Attention au **culte du héros**
+- Attention au **culte du héros**, c'est un travail d'équipe
+- Prévoir un DR pour la prochaine fois
 
 <!--
 - Tout comme Watney documente ses actions, les équipes documentent ce qu'elles font
