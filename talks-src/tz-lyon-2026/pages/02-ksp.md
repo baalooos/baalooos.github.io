@@ -114,3 +114,13 @@ category: La culture du test
 - Attention : shift left ne veut pas dire empiler des scanners lourds (SAST : analyse statique du code, SCA : analyse des dépendances) à chaque pipeline
 - Un fail fast qui marche bien = moins d'attente pour les devs, une bonne raison pour les DevOps d'y investir du temps
 -->
+
+---
+layout: default
+category: La culture du test
+---
+
+# Ce qu'on retient
+
+- Avoir des environnements de tests simples et efficients
+- Apporter des feedbacks rapidement aux devs

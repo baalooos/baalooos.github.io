@@ -96,3 +96,13 @@ category: La gestion des opérations
 - Comprendre l'historique des décisions : pourquoi les choses ont été faites ainsi (pas juste comment elles fonctionnent)
 - Savoir qui contacter en cas de problème, qui sont les bons interlocuteurs selon le sujet
 -->
+
+---
+layout: default
+category: La gestion des opérations
+---
+
+# Ce qu'on retient
+
+- Un audit est nécessaire à la prise en main d'un système
+- Reprendre un système, c'est aussi accompagner les utilisateurs

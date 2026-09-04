@@ -29,7 +29,7 @@ backgroundSize: contain
 
 # Contexte
 
-Marc Watney se réveille seul et abandonné sur Mars. 
+Marc Watney se réveille seul et abandonné sur Mars.
 Pour survivre, il va devoir:
 
 <v-click>
@@ -68,8 +68,8 @@ category: La gestion des opérations
 
 <v-click>
 
-- ...on relance comme on peut : 
-    - vieux serveurs, backups égarés, 
+- ...on relance comme on peut :
+    - vieux serveurs, backups égarés,
     - PoC cloud oublié
 
 </v-click>
@@ -114,3 +114,14 @@ category: La gestion des opérations
 - Attention au culte du héros : le sauvetage de Watney doit autant à son courage qu'au travail colossal abattu depuis la Terre
 - Relancer une infra ne se fait pas seul : même si les Ops travaillent non-stop, il y a toute une organisation derrière
 -->
+
+---
+layout: default
+category: La gestion des opérations
+---
+
+# Ce qu'on retient
+
+- Faire preuve de résilience
+- Relancer la production
+- Faire le bilan et préparer l'avenir

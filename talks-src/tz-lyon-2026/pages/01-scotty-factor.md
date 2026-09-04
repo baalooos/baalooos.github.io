@@ -99,3 +99,15 @@ category: Gestion de projet
 - Référence possible : Project Aristotle (Google), étude sur le bien-être et la performance des équipes
 - Alternative à la bascule PERT : si l'environnement reste toxique, la vraie solution long terme est parfois de changer de mission plutôt que d'attendre que la confiance s'installe
 -->
+
+---
+layout: default
+category: Gestion de projet
+---
+
+# Ce qu'on retient
+
+- Gonfler les estimations : Oui, de manière temporaire
+- Mais sur le long terme, il faut passer à autre chose
+  - Estimations transparentes
+  - Faire changer les choses

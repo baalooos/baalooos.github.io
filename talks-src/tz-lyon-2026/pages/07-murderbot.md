@@ -103,3 +103,13 @@ category: Cyber
 - En journalisme : avant de publier, s'assurer d'avoir plusieurs sources indépendantes et concordantes
 - Même logique en IT : ne pas prendre de décisions cruciales sans plusieurs sources corroborant l'information
 -->
+
+---
+layout: default
+category: Cyber
+---
+
+# Ce qu'on retient
+
+- Les interconnexions sont un risque nécessaire
+- Il faut en tenir compte, et savoir valider les données

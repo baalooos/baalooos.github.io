@@ -121,3 +121,13 @@ category: La gestion des opérations
 - L'important est d'avancer, de résoudre les problèmes un à un
 - Comme Watney : documenter ce qu'on fait, pour être mieux armé la prochaine fois face à l'inconnu
 -->
+
+---
+layout: default
+category: La gestion des opérations
+---
+
+# Ce qu'on retient
+
+- Les *Unknown Unknown*, un risque impossible à prévoir
+- En documentant, on peut limiter les risques à l'avenir

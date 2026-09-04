@@ -59,6 +59,10 @@ menu:
     name: Search
     url: /search/
     weight: 4
+  - identifier: talks
+    name: talks
+    url: /talks/
+    weight: 5
 
 outputFormats:
   SearchIndex:

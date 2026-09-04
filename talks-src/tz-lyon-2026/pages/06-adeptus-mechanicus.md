@@ -100,3 +100,13 @@ category: Gestion de la dette
 - La doc ne doit pas devenir un livre sacré qu'on suit sans jamais le remettre en question — c'est exactement ce que deviennent les rituels des Technoprêtres
 - Documenter le pourquoi, c'est ce qui transforme une équipe d'exploitant en une véritable équipe DevOps : capable de comprendre, d'adapter, de faire évoluer le système plutôt que de simplement l'exécuter
 -->
+
+---
+layout: default
+category: La gestion de la dette
+---
+
+# Ce qu'on retient
+
+- Savoir gérer la prod, c'est bien
+- Pouvoir la faire évoluer et la comprendre, c'est mieux

@@ -100,3 +100,13 @@ category: Cyber
 - Seul un pare-feu improvisé en urgence évite la compromission complète
 - Même chose en entreprise : combien d'organisations sécurisées tombent à cause d'un poste connecté n'importe où
 -->
+
+---
+layout: default
+category: Cyber
+---
+
+# Ce qu'on retient
+
+- La défense en profondeur permet de sécuriser des applications critiques
+- L'humain reste le maillon faible
