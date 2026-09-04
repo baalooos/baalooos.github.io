@@ -27,7 +27,7 @@ category: Introduction
 
 <v-click>
 
-- Roddenberry se fait accompagner de scientifiques pour créer Star Trek
+- Gene Roddenberry se fait accompagner de scientifiques pour créer Star Trek
 
 </v-click>
 

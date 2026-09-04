@@ -7,7 +7,7 @@ categoryTag: hide
 # Autres pistes écartées pour ce talk
 
 ---
-layout: two-cols
+layout: two-cols-header
 category: Addendum
 ---
 

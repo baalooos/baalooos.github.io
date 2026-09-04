@@ -12,6 +12,7 @@ categoryTag: hide
 </div>
 
 <!--
+- DR = Disaster Recovery
 - Suite à un incident, Marc Watney se réveille seul, abandonné sur Mars
 - Pour survivre : produire de la nourriture, modifier le matériel existant, utiliser des systèmes de spare
 - Tout ça en gardant espoir, et en documentant ses aventures
@@ -28,23 +29,24 @@ backgroundSize: contain
 
 # Contexte
 
-Marc Watney, seul et abandonné sur Mars
+Marc Watney se réveille seul et abandonné sur Mars. 
+Pour survivre, il va devoir:
 
 <v-click>
 
-Trouve de la nourriture
+- Trouver de la nourriture
 
 </v-click>
 
 <v-click>
 
-Relance **Pathfinder** pour communiquer avec la Terre
+- Relancer **Pathfinder** pour communiquer avec la Terre
 
 </v-click>
 
 <v-click>
 
-Apprend à se débrouiller avec ce qu'il a sous la main
+- Apprendre à se débrouiller avec ce qu'il a sous la main
 
 </v-click>
 
@@ -63,7 +65,14 @@ category: La gestion des opérations
 
 - Ne pas s'écrouler, **continuer à avancer**
 - DataCenter brûlé, pas de DR documenté...
-- ...on relance comme on peut : vieux serveurs, backups égarés, PoC cloud oublié
+
+<v-click>
+
+- ...on relance comme on peut : 
+    - vieux serveurs, backups égarés, 
+    - PoC cloud oublié
+
+</v-click>
 
 <!--
 - Watney choisit de continuer à travailler plutôt que de se dire que tout est perdu
@@ -78,8 +87,8 @@ category: La gestion des opérations
 
 # Absorber la crise
 
-- Tous les plans ne fonctionnent pas...
-- ...mais il y aura aussi des **coups de génie**
+- Tous les plans ne fonctionneront pas...
+- ...mais il y aura aussi des **idées géniales**
 - En crise, les **silos tombent** et tout le monde travaille ensemble
 
 <!--
@@ -95,9 +104,9 @@ category: La gestion des opérations
 
 # Faire le bilan
 
-- Documenter, comme les **video logs** de Watney
+- Comme Watney, documenter tout ce que vous faites
 - Attention au **culte du héros**, c'est un travail d'équipe
-- Prévoir un DR pour la prochaine fois
+- Prévoir un DR pour la prochaine fois...
 
 <!--
 - Tout comme Watney documente ses actions, les équipes documentent ce qu'elles font

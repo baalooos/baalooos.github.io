@@ -62,8 +62,8 @@ category: Conclusion
 # Les machines, l'avenir de l'humanité ?
 
 - Si les machines gèrent tout, **que reste-t-il à l'humanité** ?
-- Banks répond loisirs, fêtes, plaisir
-- Matrix imagine un futur avec des humains réduits en **piles électriques**
+    - Banks répond loisirs, fêtes, plaisir
+    - Matrix imagine un futur avec des humains comme **piles électriques**
 
 <!--
 - Question centrale : si les machines sont capables de tout gérer, qu'est-ce qu'il reste à l'humanité ?
@@ -80,7 +80,7 @@ category: Conclusion
 
 - Aujourd'hui nous sommes quelque part **entre les deux**
 - Nous faisons face à de nombreux bouleversements dans nos métiers
-- Mais nous pouvons encore choisir ce que nous ferons de ces gains de productivité
+- Mais nous pouvons encore choisir comment utiliser ces outils
 
 <!--
 - Nous sommes en train d'essayer de comprendre les bouleversements auxquels nous faisons face
@@ -94,7 +94,7 @@ layout: default
 category: Conclusion
 ---
 
-# Ce qu'on en retient
+# Et maintenant?
 
 - La réponse n'est **pas que technique**
 - La vraie question : **que fait-on des gains de productivité** ?

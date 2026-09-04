@@ -38,20 +38,20 @@ A votre disposition vous allez avoir:
 
 <v-click>
 
-La possibilité de créer le **vaisseau** de vos rêves
+- La possibilité de créer le **vaisseau** de vos rêves
 
 </v-click>
 
 
 <v-click>
 
-Un arbre, vous permettant de débloquer de nombreux **composants**
+- Un arbre, vous permettant de débloquer de nombreux **composants**
 
 </v-click>
 
 <v-click>
 
-Le **Revert to launch** : un bouton retour en arrière, sans coût
+- Le **Revert to launch** : un bouton retour en arrière, sans coût
 
 </v-click>
 
@@ -74,13 +74,20 @@ category: La culture du test
 # Pour les Devs
 
 - Vous avez besoin d'un env de test à **coût zéro**
-- On retrouve ici l'esprit du **TDD**
+
+<v-click>
+
+- On peut presque parler de **TDD**
     - Red, Green, Refactor
+
+</v-click>
 
 <!--
 - Le revert to launch permet de tester sans conséquence, à tout moment
 - En extrapolant un peu : on retrouve l'essence du TDD → coder, tester, corriger jusqu'à ce que ça passe
-- Red, Green, refactor: ça plante, on fait passer les tests, on refactor pour que ce soit propre
+- Red: Je dois faire voler ma fusée
+- Green: Je design une fusée qui décolle
+- Refactor: la partie qui sort un peu du cadre du jeu
 - Aparté rapide : la même logique de boucle s'applique quand on pilote un LLM (contexte + critères de test + itération)
 -->
 
@@ -92,9 +99,14 @@ category: La culture du test
 # Pour les DevOps
 
 - Raccourcir la boucle de **feedback**
-- Le **fail fast, Shift Left**, une cible pour votre CI/CD
+- Le **Fail Fast, Shift Left**, une cible pour votre CI/CD
+
+<v-click>
+
 - Attention aux outils très lourd (SAST, SCA...)
 - Vos devs vous diront merci
+
+</v-click>
 
 <!--
 - On lance, ça explose, on recommence... si chaque cycle prend des heures, on ne s'en sort pas

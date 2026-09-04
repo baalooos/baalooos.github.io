@@ -29,23 +29,23 @@ backgroundSize: contain
 
 # Contexte
 
-Hari Seldon, mathématicien, développe la psychohistoire
+Hari Seldon, développe la psychohistoire
 
 <v-click>
 
-Un plan béton : capsules, Time Vault, prévu pour tout
+Un plan béton : capsules, Time Vault, tout est prévu...
 
 </v-click>
 
 <v-click>
 
-Sauf pour **le Mulet**
+Sauf pour **le Mulet**, Un mutant aux super pouvoirs, un imprévu total
 
 </v-click>
 
 <v-click>
 
-Un mutant aux super pouvoirs, un imprévu total
+Comment résoure une crise imprévue?
 
 </v-click>
 
@@ -76,7 +76,7 @@ layout: default
 category: La gestion des opérations
 ---
 
-# Comment en arriver là (1/3)
+# Comment en arriver là ? (1/3)
 
 ## Une dépendance documentée
 
@@ -87,7 +87,7 @@ layout: default
 category: La gestion des opérations
 ---
 
-# Comment en arriver là (2/3)
+# Comment en arriver là ? (2/3)
 
 ## Une dépendance non-documentée mais l'équipe le sait
 
@@ -98,7 +98,7 @@ layout: default
 category: La gestion des opérations
 ---
 
-# Comment en arriver là (3/3)
+# Comment en arriver là ? (3/3)
 
 ## Une dépendance non-documentée mais les personnes ne sont plus là
 

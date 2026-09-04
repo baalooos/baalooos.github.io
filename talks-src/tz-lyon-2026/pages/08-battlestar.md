@@ -21,7 +21,7 @@ categoryTag: hide
 
 ---
 layout: image-right
-image: /images/08-battlestar-01.webp
+image: /images/08-battlestar-01.jpeg
 category: Cyber
 categoryTag: left
 class: slide-context
@@ -81,10 +81,21 @@ category: Cyber
 # Le Maillon faible
 
 - Un officier reconnecte une partie du réseau...
+
+<v-click>
+
 - ...sauvé de justesse par un **pare-feu de fortune**
+
+</v-click>
+
+<v-click>
+
 - Un poste connecté "n'importe où" peut tout faire tomber
 
+</v-click>
+
 <!--
+- Quand on a tout bien fait, le problème n'est plus technique
 - Pendant qu'Adama est blessé, un officier (Tigh) raccorde une partie des ordinateurs au réseau par nécessité opérationnelle
 - Seul un pare-feu improvisé en urgence évite la compromission complète
 - Même chose en entreprise : combien d'organisations sécurisées tombent à cause d'un poste connecté n'importe où

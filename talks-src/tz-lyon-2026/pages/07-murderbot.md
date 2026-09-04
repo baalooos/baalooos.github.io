@@ -90,8 +90,13 @@ category: Cyber
 # Mais attention à la qualité des données
 
 - Injecter du faux, ou juste **altérer** une communication : même danger
+
+<v-click>
+
 - La **règle des deux sources**, une vérification empruntée au journalisme
 - Quand c'est possible, ne jamais se fier à une source **unique**
+
+</v-click>
 
 <!--
 - Injecter de fausses informations ou simplement altérer une communication peut avoir des conséquences néfastes

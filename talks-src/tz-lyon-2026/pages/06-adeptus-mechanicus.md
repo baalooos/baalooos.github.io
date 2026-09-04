@@ -65,7 +65,12 @@ category: Gestion de la dette
 
 - Se contenter de savoir gérer les Opérations
 - Suivre les rites, sans dévier
+
+<v-click>
+
 - Etre une équipe d'exploitant
+
+</v-click>
 
 <!--
 - Le "comment" : la connaissance opérationnelle du quotidien, celle qui permet de faire tourner le système
@@ -83,8 +88,12 @@ category: Gestion de la dette
 - La gestion du quotidien n'est pas suffisante
 - La doc n'est pas un livre sacré
 - Comprendre permet de faire vivre le système, de s'adapter, d'évoluer
+
+<v-click>
+
 - Devenir une équipe de DevOps
 
+</v-click>
 
 <!--
 - Le Mechanicus prouve que le "comment" seul ne suffit pas : ils exécutent parfaitement des procédures qu'ils ne comprennent plus

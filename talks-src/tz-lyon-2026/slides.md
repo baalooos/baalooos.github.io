@@ -8,13 +8,17 @@ layout: section
 ## la SF comme miroir de nos pratiques tech
 
 <div class="text-sm opacity-50 mt-4">
-Technozaure Lyon 2026
+#Technozaure Lyon 2026
 </div>
 
 ---
+src: ./pages/00-introduction.md
+---
+
+---
 layout: image-right
-image: /images/00-presentation-01.png
-category: Gestion de projet
+image: /images/00-presentation-01.jpeg
+category: Présentation
 categoryTag: left
 class: slide-context
 backgroundSize: 40% auto
@@ -25,14 +29,9 @@ backgroundSize: 40% auto
 - Architecte Cloud AWS
 - Zenika depuis 1 ans
 - Lecteur depuis 35 ans
-- Mon blog où je post des trucs -->
+- [baalooos.me](https://baalooos.me/posts/)
 
 Aujourd'hui, je marie mes passions
-
-
----
-src: ./pages/00-introduction.md
----
 
 ---
 src: ./pages/01-scotty-factor.md

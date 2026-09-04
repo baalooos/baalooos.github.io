@@ -32,7 +32,7 @@ Suite au combat contre Khan, Kirk demande à Scotty dans combien de temps ils po
 
 <v-click>
 
-**Scotty :** "8 semaines... mais pour vous, 2 semaines"
+**Scotty :** "Normalement, 8 semaines... mais pour vous, 2 suffiront"
 
 </v-click>
 
@@ -64,9 +64,14 @@ category: Gestion de projet
 # Le Scotty Factor, Oui...
 
 - ça consiste à **surestimer** sciemment ses délais
+
+<v-click>
+
 - c'est utile dans certains cas :
   - en arrivant sur de nouveaux projets
   - quand on est dans des **situations difficiles**
+
+</v-click>
 
 <!--
 - Terme bien connu des amateurs de Star Trek : "Scotty Factor"
@@ -84,8 +89,8 @@ category: Gestion de projet
 # ... Mais pas sur le long terme
 
 - ça ne doit pas être une solution durable
-- quand tout va bien, on bascule sur une estimation **transparente**
-- si les choses ne s'améliore pas, il faut penser à changer de mission
+  - quand tout va bien, on bascule sur une estimation **transparente**
+  - si les choses ne s'améliore pas, il faut penser à changer de mission
 
 <!--
 - Une fois intégré et en maîtrise sur le projet, basculer vers une méthode plus saine

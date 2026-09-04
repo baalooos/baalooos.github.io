@@ -4,7 +4,7 @@ category: La gestion des opérations
 categoryTag: hide
 ---
 
-# L'importance de la prise en main d'un système
+# La prise en main d'un système
 ## Nous sommes Légion, nous sommes Bob (2016)
 
 <div class="text-sm opacity-50 mt-4">
@@ -37,25 +37,19 @@ Bob : un développeur qui meurt dans les années 2010 et est cryogénisé
 
 <v-click>
 
-Se réveille un siècle plus tard, téléchargé dans un ordinateur
+Se réveille un siècle plus tard, téléchargé dans un **ordinateur**
 
 </v-click>
 
 <v-click>
 
-Doit intégré une sonde auto-réplicatrice pour explorer l'univers
+Doit intégrer une sonde **auto-réplicatrice** pour explorer l'univers
 
 </v-click>
 
 <v-click>
 
-En prenant les commandes de sa sonde, il fait un audit et découvre un kill switch
-
-</v-click>
-
-<v-click>
-
-Il gardera cette habitude de faire des audits tout au long de la série
+En prenant les commandes de sa sonde, il fait un audit et découvre un **kill switch**
 
 </v-click>
 
@@ -74,7 +68,7 @@ category: La gestion des opérations
 
 # La prise en main d'un système...
 
-- Cartographier pour éviter les **impacts cachés**
+- Cartographier pour éviter les **zones d'ombres**
 - Configuration, **montée en charge**, failover
 - Backups, **restauration**
 
@@ -93,9 +87,9 @@ category: La gestion des opérations
 
 # ... et des responsabilités associées
 
-- Besoins utilisateurs, **SLA**
-- **Historique** des décisions (ADR)
-- Les bons **interlocuteurs**
+- Appréhender les besoins des utilisateurs, **SLAs**
+- Comprendre **l'historique** des décisions (ADR)
+- Trouver les bons **interlocuteurs**
 
 <!--
 - Besoins réels des utilisateurs, SLA, et cohérence entre la configuration du système et le besoin
