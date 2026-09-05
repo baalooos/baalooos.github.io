@@ -45,6 +45,24 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+          cache-dependency-path: talks-src/tz-lyon-2026/pnpm-lock.yaml
+      - name: Install talk dependencies
+        working-directory: talks-src/tz-lyon-2026
+        run: pnpm install --frozen-lockfile
+      - name: Build talk (Slidev)
+        working-directory: talks-src/tz-lyon-2026
+        run: pnpm exec slidev build --base /talks/tz-lyon-2026/ --out dist --without-notes
+      - name: Copy talk into Hugo static
+        run: |
+          mkdir -p static/talks/tz-lyon-2026
+          cp -r talks-src/tz-lyon-2026/dist/. static/talks/tz-lyon-2026/
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
