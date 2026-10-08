@@ -3,7 +3,7 @@ title: "Talks"
 url: "/talks/"
 ---
 
-## Aliens, IAs et incidents de prod : la SF comme miroir de nos pratiques tech
+## Aliens, IAs et incidents de prod : la SF comme miroir de nos pratiques tech {#tz-lyon-2026}
 
 **TZ Lyon** — Septembre 2026
 
