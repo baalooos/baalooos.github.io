@@ -1,0 +1,69 @@
+.fiche-livre {
+  --fl-accent: #d9a441; /* couleur des étoiles et du liseré */
+  margin: 1.5rem 0 2rem;
+  padding: 1rem 1.25rem 1.1rem;
+  border: 1px solid color-mix(in srgb, currentColor 18%, transparent);
+  border-left: 4px solid var(--fl-accent);
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, currentColor 4%, transparent);
+}
+
+.fiche-livre__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid color-mix(in srgb, currentColor 14%, transparent);
+}
+
+.fiche-livre__titre {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.fiche-livre__note {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+
+/* étoiles remplies au prorata de --pct, demi-étoiles comprises */
+.fiche-livre__stars {
+  font-size: 1.35rem;
+  line-height: 1;
+  background: linear-gradient(
+    90deg,
+    var(--fl-accent) var(--pct),
+    color-mix(in srgb, currentColor 25%, transparent) var(--pct)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.fiche-livre__valeur {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.fiche-livre__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.75rem 1.5rem;
+  margin: 0;
+}
+
+.fiche-livre__grid dt {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
+  margin: 0 0 0.15rem;
+}
+
+.fiche-livre__grid dd {
+  margin: 0;
+}

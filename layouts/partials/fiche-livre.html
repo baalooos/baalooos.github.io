@@ -1,0 +1,59 @@
+{{/* layouts/partials/fiche-livre.html */}}
+{{ with resources.Get "css/fiche-livre.css" }}
+  {{ with . | minify | fingerprint }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}
+{{ end }}
+
+<div class="fiche-livre" role="group" aria-label="Fiche de lecture">
+
+  <div class="fiche-livre__head">
+    <div class="fiche-livre__titre">
+      {{ with .GetTerms "livres" }}
+        {{ range first 1 . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+      {{ else }}
+        {{ with $.Params.titre_livre }}{{ . }}{{ end }}
+      {{ end }}
+    </div>
+
+    {{ with .Params.note }}
+      {{ $n := float (replace (string .) "," ".") }}
+      {{ $pct := mul (div $n 5.0) 100 }}
+      {{ $style := printf "--pct: %.0f%%" $pct }}
+      {{ $note := replace (printf "%g" $n) "." "," }}
+      <div class="fiche-livre__note" aria-label="Note : {{ $note }} sur 5">
+        <span class="fiche-livre__stars" style="{{ $style | safeCSS }}" aria-hidden="true">★★★★★</span>
+        <span class="fiche-livre__valeur">{{ $note }}/5</span>
+      </div>
+    {{ end }}
+  </div>
+
+  <dl class="fiche-livre__grid">
+    {{ with .GetTerms "auteurs" }}
+      <div>
+        <dt>{{ if gt (len .) 1 }}Auteurs{{ else }}Auteur{{ end }}</dt>
+        <dd>{{ range $i, $a := . }}{{ if $i }}, {{ end }}<a href="{{ $a.RelPermalink }}">{{ $a.LinkTitle }}</a>{{ end }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .GetTerms "traducteurs" }}
+      <div>
+        <dt>{{ if gt (len .) 1 }}Traducteurs{{ else }}Traduction{{ end }}</dt>
+        <dd>{{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .GetTerms "editeurs" }}
+      <div>
+        <dt>{{ if gt (len .) 1 }}Éditeurs{{ else }}Éditeur{{ end }}</dt>
+        <dd>{{ range $i, $e := . }}{{ if $i }}, {{ end }}<a href="{{ $e.RelPermalink }}">{{ $e.LinkTitle }}</a>{{ end }}</dd>
+      </div>
+    {{ end }}
+
+    {{ with .Params.langue_lecture }}
+      <div><dt>Lu en</dt><dd>{{ . }}</dd></div>
+    {{ end }}
+
+    {{ with .Params.termine_le }}
+      <div><dt>Terminé le</dt><dd>{{ time.Format ":date_long" . }}</dd></div>
+    {{ end }}
+  </dl>
+</div>

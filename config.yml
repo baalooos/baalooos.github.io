@@ -7,7 +7,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-mainsections: ["posts"]
+removePathAccents: true
 
 minify:
   disableXML: true
@@ -15,12 +15,17 @@ minify:
 taxonomies:
   tag: tags
   category: categories
-  series: series
+  serie: series
+  auteur: auteurs
+  traducteur: traducteurs
+  editeur: editeurs
+  livre: livres
 
 params:
   author:
     name: Baalooos
   goatcounter: baalooos
+  mainsections: ["posts"]
 
   rtwt:
     searchPath: /search
@@ -63,6 +68,10 @@ menu:
     name: talks
     url: /talks/
     weight: 5
+  - identifier: livres
+    name: livres
+    url: /livres/
+    weight: 6
 
 outputFormats:
   SearchIndex:
