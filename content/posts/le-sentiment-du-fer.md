@@ -8,6 +8,13 @@ tags:
     - "archives"
     - "syfantasy.fr"
 categories: ["Livres"]
+livres: le-sentiment-du-fer
+langue_lecture: "français"
+auteurs: ["Jean-Philippe Jaworski"]
+editeurs: ["Editions Gallimard"]
+note: 4
+termine_le: 2022-03-07
+series: "Récits du Vieux Royaume"
 draft: false
 ---
 

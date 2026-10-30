@@ -13,6 +13,13 @@ tags:
     - "produit"
     - "devops"
 categories: "Livres"
+livres: nous-sommes-legion
+langue_lecture: "anglais"
+auteurs: ["Dennis E. Taylor"]
+editeurs: ["Worldbuilders Press"]
+note: 5
+termine_le: 2023-12-18
+series: Bobiverse
 draft: false
 ---
 

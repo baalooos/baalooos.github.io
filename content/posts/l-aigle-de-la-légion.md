@@ -9,6 +9,14 @@ tags:
     - "archives"
     - "syfantasy.fr"
 categories: ["Livres"]
+livres: l-aigle-de-la-legion
+langue_lecture: "français"
+auteurs: ["Simon Scarrow"]
+editeurs: ["Bragelonne"]
+traducteurs: ["Benoît Domis"]
+note: 4
+termine_le: 2021-09-13
+series: Les Aigles de l'Empire
 draft: false
 ---
 

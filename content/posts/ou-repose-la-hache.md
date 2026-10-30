@@ -15,6 +15,7 @@ traducteurs: ["Henry-Luc Planchat"]
 editeurs: ["Le Bélial"]
 note: 4,5
 termine_le: 2026-10-06
+series: One Shot
 draft: false
 ---
 

@@ -8,6 +8,14 @@ tags:
     - "archives"
     - "syfantasy.fr"
 categories: ["Livres"]
+livres: la-tour-des-fous
+langue_lecture: "français"
+auteurs: ["Andrzej Sapkowski"]
+editeurs: ["Bragelonne"]
+traducteurs: ["Lydia Waleryszak"]
+note: 4
+termine_le: 2022-01-02
+series: La Trilogie Hussite
 draft: true
 ---
 

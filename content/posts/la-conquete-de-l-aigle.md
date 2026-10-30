@@ -7,6 +7,14 @@ tags:
     - "rome"
     - "antiquité"
 categories: ["Livres"]
+livres: la-conquete-de-l-aigle
+langue_lecture: "français"
+auteurs: ["Simon Scarrow"]
+editeurs: ["Bragelonne"]
+traducteurs: ["Benoît Domis"]
+note: 4
+termine_le: 2021-11-01
+series: Les Aigles de l'Empire
 draft: false
 ---
 

@@ -47,6 +47,12 @@
         <dd>{{ range $i, $e := . }}{{ if $i }}, {{ end }}<a href="{{ $e.RelPermalink }}">{{ $e.LinkTitle }}</a>{{ end }}</dd>
       </div>
     {{ end }}
+    {{ with .GetTerms "series" }}
+      <div>
+        <dt>Série</dt>
+        <dd>{{ range $i, $s := . }}{{ if $i }}, {{ end }}<a href="{{ $s.RelPermalink }}">{{ $s.LinkTitle }}</a>{{ end }}</dd>
+      </div>
+    {{ end }}
 
     {{ with .Params.langue_lecture }}
       <div><dt>Lu en</dt><dd>{{ . }}</dd></div>

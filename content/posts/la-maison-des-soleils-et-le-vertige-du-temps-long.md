@@ -9,6 +9,14 @@ tags:
     - "espace"
     - "sense of wonder"
 categories: ["Livres"]
+livres: la-maison-des-soleils
+langue_lecture: "français"
+auteurs: ["Alastair Reynolds"]
+editeurs: ["Le Bélial"]
+traducteurs: ["Pierre-Paul Durastanti"]
+note: 5
+termine_le: 2025-10-17
+series: One Shot
 draft: false
 ---
 

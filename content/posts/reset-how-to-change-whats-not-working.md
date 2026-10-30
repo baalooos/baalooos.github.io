@@ -9,6 +9,13 @@ tags:
     - "productivité"
     - "essais"
 categories: ["Livres"]
+livres: reset-how-to-change
+langue_lecture: "anglais"
+auteurs: ["Dan Heath"]
+editeurs: ["Avid Reader Press"]
+note: 3,75
+termine_le: 2025-06-13
+series: One Shot
 draft: false
 ---
 
