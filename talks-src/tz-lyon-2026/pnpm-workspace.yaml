@@ -5,3 +5,5 @@ shamefullyHoist: true
 # build scripts by default (`strictDepBuilds: true`), so allowlist it up-front.
 allowBuilds:
   playwright-chromium: true
+overrides:
+  "@slidev/types": "^53.0.0"
