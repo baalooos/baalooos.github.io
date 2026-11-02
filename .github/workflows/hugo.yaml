@@ -60,11 +60,11 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Build talk (Slidev)
         working-directory: talks-src/tz-lyon-2026
-        run: pnpm exec slidev build --base /talks/tz-lyon-2026/ --out dist --without-notes
+        run: pnpm exec slidev build --base /slides/tz-lyon-2026/ --out dist --without-notes
       - name: Copy talk into Hugo static
         run: |
-          mkdir -p static/talks/tz-lyon-2026
-          cp -r talks-src/tz-lyon-2026/dist/. static/talks/tz-lyon-2026/
+          mkdir -p static/slides/tz-lyon-2026
+          cp -r talks-src/tz-lyon-2026/dist/. static/slides/tz-lyon-2026/
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
